@@ -25,9 +25,10 @@ const getBalance = async () => {
 getBalance();
 
 const run = () => {
-  let issuenumberEntry = document.getElementById("issuseNum").value;
+  let issuenumberEntry = Number(document.getElementById("issuseNum").value);
   let id = document.getElementById("id").value;
   let sign = document.getElementById("sign").value;
+  console.log(id,sign)
   getBalance();
   const main = async (issueNum, select) => {
     try {

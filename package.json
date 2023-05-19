@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannguyennhattruong/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannguyennhattruong/test/issues"
+  },
+  "homepage": "https://github.com/dannguyennhattruong/test#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.63.1",
+    "axios": "^1.1.2",
+    "ethers": "^5.7.1",
+    "form-data": "^4.0.0",
+    "telegraf": "^4.12.2"
+  }
+}

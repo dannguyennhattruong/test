@@ -1,0 +1,7002 @@
+[
+    {
+        "rowId": 1,
+        "IssueNumber": "2022101010812",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "06100"
+    },
+    {
+        "rowId": 2,
+        "IssueNumber": "2022101010811",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "55973"
+    },
+    {
+        "rowId": 3,
+        "IssueNumber": "2022101010810",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "14475"
+    },
+    {
+        "rowId": 4,
+        "IssueNumber": "2022101010809",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "67192"
+    },
+    {
+        "rowId": 5,
+        "IssueNumber": "2022101010808",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "79883"
+    },
+    {
+        "rowId": 6,
+        "IssueNumber": "2022101010807",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "94495"
+    },
+    {
+        "rowId": 7,
+        "IssueNumber": "2022101010806",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "88451"
+    },
+    {
+        "rowId": 8,
+        "IssueNumber": "2022101010805",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "42065"
+    },
+    {
+        "rowId": 9,
+        "IssueNumber": "2022101010804",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "06477"
+    },
+    {
+        "rowId": 10,
+        "IssueNumber": "2022101010803",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "84712"
+    },
+    {
+        "rowId": 11,
+        "IssueNumber": "2022101010802",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "46933"
+    },
+    {
+        "rowId": 12,
+        "IssueNumber": "2022101010801",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "65596"
+    },
+    {
+        "rowId": 13,
+        "IssueNumber": "2022101010800",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "09702"
+    },
+    {
+        "rowId": 14,
+        "IssueNumber": "2022101010799",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "86332"
+    },
+    {
+        "rowId": 15,
+        "IssueNumber": "2022101010798",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "37917"
+    },
+    {
+        "rowId": 16,
+        "IssueNumber": "2022101010797",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "57900"
+    },
+    {
+        "rowId": 17,
+        "IssueNumber": "2022101010796",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "89589"
+    },
+    {
+        "rowId": 18,
+        "IssueNumber": "2022101010795",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "13842"
+    },
+    {
+        "rowId": 19,
+        "IssueNumber": "2022101010794",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "86533"
+    },
+    {
+        "rowId": 20,
+        "IssueNumber": "2022101010793",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "56652"
+    },
+    {
+        "rowId": 21,
+        "IssueNumber": "2022101010792",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "84075"
+    },
+    {
+        "rowId": 22,
+        "IssueNumber": "2022101010791",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "41684"
+    },
+    {
+        "rowId": 23,
+        "IssueNumber": "2022101010790",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "41605"
+    },
+    {
+        "rowId": 24,
+        "IssueNumber": "2022101010789",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "81721"
+    },
+    {
+        "rowId": 25,
+        "IssueNumber": "2022101010788",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "26054"
+    },
+    {
+        "rowId": 26,
+        "IssueNumber": "2022101010787",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "90815"
+    },
+    {
+        "rowId": 27,
+        "IssueNumber": "2022101010786",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "86406"
+    },
+    {
+        "rowId": 28,
+        "IssueNumber": "2022101010785",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "19063"
+    },
+    {
+        "rowId": 29,
+        "IssueNumber": "2022101010784",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "79891"
+    },
+    {
+        "rowId": 30,
+        "IssueNumber": "2022101010783",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "83214"
+    },
+    {
+        "rowId": 31,
+        "IssueNumber": "2022101010782",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "52866"
+    },
+    {
+        "rowId": 32,
+        "IssueNumber": "2022101010781",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "98350"
+    },
+    {
+        "rowId": 33,
+        "IssueNumber": "2022101010780",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "36496"
+    },
+    {
+        "rowId": 34,
+        "IssueNumber": "2022101010779",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "35810"
+    },
+    {
+        "rowId": 35,
+        "IssueNumber": "2022101010778",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "54352"
+    },
+    {
+        "rowId": 36,
+        "IssueNumber": "2022101010777",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "67826"
+    },
+    {
+        "rowId": 37,
+        "IssueNumber": "2022101010776",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "13798"
+    },
+    {
+        "rowId": 38,
+        "IssueNumber": "2022101010775",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "32430"
+    },
+    {
+        "rowId": 39,
+        "IssueNumber": "2022101010774",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "03799"
+    },
+    {
+        "rowId": 40,
+        "IssueNumber": "2022101010773",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "63542"
+    },
+    {
+        "rowId": 41,
+        "IssueNumber": "2022101010772",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "02078"
+    },
+    {
+        "rowId": 42,
+        "IssueNumber": "2022101010771",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "82833"
+    },
+    {
+        "rowId": 43,
+        "IssueNumber": "2022101010770",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "41623"
+    },
+    {
+        "rowId": 44,
+        "IssueNumber": "2022101010769",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "30891"
+    },
+    {
+        "rowId": 45,
+        "IssueNumber": "2022101010768",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "14140"
+    },
+    {
+        "rowId": 46,
+        "IssueNumber": "2022101010767",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "37074"
+    },
+    {
+        "rowId": 47,
+        "IssueNumber": "2022101010766",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "59298"
+    },
+    {
+        "rowId": 48,
+        "IssueNumber": "2022101010765",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "03689"
+    },
+    {
+        "rowId": 49,
+        "IssueNumber": "2022101010764",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "59044"
+    },
+    {
+        "rowId": 50,
+        "IssueNumber": "2022101010763",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "04255"
+    },
+    {
+        "rowId": 51,
+        "IssueNumber": "2022101010762",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "87904"
+    },
+    {
+        "rowId": 52,
+        "IssueNumber": "2022101010761",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "83314"
+    },
+    {
+        "rowId": 53,
+        "IssueNumber": "2022101010760",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "68253"
+    },
+    {
+        "rowId": 54,
+        "IssueNumber": "2022101010759",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "52536"
+    },
+    {
+        "rowId": 55,
+        "IssueNumber": "2022101010758",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "00328"
+    },
+    {
+        "rowId": 56,
+        "IssueNumber": "2022101010757",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "24175"
+    },
+    {
+        "rowId": 57,
+        "IssueNumber": "2022101010756",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "14061"
+    },
+    {
+        "rowId": 58,
+        "IssueNumber": "2022101010755",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "97462"
+    },
+    {
+        "rowId": 59,
+        "IssueNumber": "2022101010754",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "09158"
+    },
+    {
+        "rowId": 60,
+        "IssueNumber": "2022101010753",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "86738"
+    },
+    {
+        "rowId": 61,
+        "IssueNumber": "2022101010753",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "86738"
+    },
+    {
+        "rowId": 62,
+        "IssueNumber": "2022101010752",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "17396"
+    },
+    {
+        "rowId": 63,
+        "IssueNumber": "2022101010751",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "19226"
+    },
+    {
+        "rowId": 64,
+        "IssueNumber": "2022101010750",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "01514"
+    },
+    {
+        "rowId": 65,
+        "IssueNumber": "2022101010749",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "08428"
+    },
+    {
+        "rowId": 66,
+        "IssueNumber": "2022101010748",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "40171"
+    },
+    {
+        "rowId": 67,
+        "IssueNumber": "2022101010747",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "23858"
+    },
+    {
+        "rowId": 68,
+        "IssueNumber": "2022101010746",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "30916"
+    },
+    {
+        "rowId": 69,
+        "IssueNumber": "2022101010745",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "03417"
+    },
+    {
+        "rowId": 70,
+        "IssueNumber": "2022101010744",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "32257"
+    },
+    {
+        "rowId": 71,
+        "IssueNumber": "2022101010743",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "35038"
+    },
+    {
+        "rowId": 72,
+        "IssueNumber": "2022101010742",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "33265"
+    },
+    {
+        "rowId": 73,
+        "IssueNumber": "2022101010741",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "89137"
+    },
+    {
+        "rowId": 74,
+        "IssueNumber": "2022101010740",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "13767"
+    },
+    {
+        "rowId": 75,
+        "IssueNumber": "2022101010739",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "56165"
+    },
+    {
+        "rowId": 76,
+        "IssueNumber": "2022101010738",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "78907"
+    },
+    {
+        "rowId": 77,
+        "IssueNumber": "2022101010737",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "99987"
+    },
+    {
+        "rowId": 78,
+        "IssueNumber": "2022101010736",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "77604"
+    },
+    {
+        "rowId": 79,
+        "IssueNumber": "2022101010735",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "17771"
+    },
+    {
+        "rowId": 80,
+        "IssueNumber": "2022101010734",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "80122"
+    },
+    {
+        "rowId": 81,
+        "IssueNumber": "2022101010733",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "46337"
+    },
+    {
+        "rowId": 82,
+        "IssueNumber": "2022101010732",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "54201"
+    },
+    {
+        "rowId": 83,
+        "IssueNumber": "2022101010731",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "93768"
+    },
+    {
+        "rowId": 84,
+        "IssueNumber": "2022101010730",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "99543"
+    },
+    {
+        "rowId": 85,
+        "IssueNumber": "2022101010729",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "37015"
+    },
+    {
+        "rowId": 86,
+        "IssueNumber": "2022101010728",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "61895"
+    },
+    {
+        "rowId": 87,
+        "IssueNumber": "2022101010727",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "63077"
+    },
+    {
+        "rowId": 88,
+        "IssueNumber": "2022101010726",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "77082"
+    },
+    {
+        "rowId": 89,
+        "IssueNumber": "2022101010725",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "88949"
+    },
+    {
+        "rowId": 90,
+        "IssueNumber": "2022101010724",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "26797"
+    },
+    {
+        "rowId": 91,
+        "IssueNumber": "2022101010723",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "72939"
+    },
+    {
+        "rowId": 92,
+        "IssueNumber": "2022101010722",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "53694"
+    },
+    {
+        "rowId": 93,
+        "IssueNumber": "2022101010721",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "37844"
+    },
+    {
+        "rowId": 94,
+        "IssueNumber": "2022101010720",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "77233"
+    },
+    {
+        "rowId": 95,
+        "IssueNumber": "2022101010719",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "59017"
+    },
+    {
+        "rowId": 96,
+        "IssueNumber": "2022101010718",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "22159"
+    },
+    {
+        "rowId": 97,
+        "IssueNumber": "2022101010717",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "15157"
+    },
+    {
+        "rowId": 98,
+        "IssueNumber": "2022101010716",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "20070"
+    },
+    {
+        "rowId": 99,
+        "IssueNumber": "2022101010715",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "85299"
+    },
+    {
+        "rowId": 100,
+        "IssueNumber": "2022101010714",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "06149"
+    },
+    {
+        "rowId": 101,
+        "IssueNumber": "2022101010713",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "30429"
+    },
+    {
+        "rowId": 102,
+        "IssueNumber": "2022101010712",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "57037"
+    },
+    {
+        "rowId": 103,
+        "IssueNumber": "2022101010711",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "68013"
+    },
+    {
+        "rowId": 104,
+        "IssueNumber": "2022101010710",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "74160"
+    },
+    {
+        "rowId": 105,
+        "IssueNumber": "2022101010709",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "89410"
+    },
+    {
+        "rowId": 106,
+        "IssueNumber": "2022101010708",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "40311"
+    },
+    {
+        "rowId": 107,
+        "IssueNumber": "2022101010707",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "03052"
+    },
+    {
+        "rowId": 108,
+        "IssueNumber": "2022101010706",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "21036"
+    },
+    {
+        "rowId": 109,
+        "IssueNumber": "2022101010705",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "66101"
+    },
+    {
+        "rowId": 110,
+        "IssueNumber": "2022101010704",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "62180"
+    },
+    {
+        "rowId": 111,
+        "IssueNumber": "2022101010703",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "72073"
+    },
+    {
+        "rowId": 112,
+        "IssueNumber": "2022101010702",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "12204"
+    },
+    {
+        "rowId": 113,
+        "IssueNumber": "2022101010701",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "38865"
+    },
+    {
+        "rowId": 114,
+        "IssueNumber": "2022101010700",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "58674"
+    },
+    {
+        "rowId": 115,
+        "IssueNumber": "2022101010699",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "35699"
+    },
+    {
+        "rowId": 116,
+        "IssueNumber": "2022101010698",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "32101"
+    },
+    {
+        "rowId": 117,
+        "IssueNumber": "2022101010697",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "71695"
+    },
+    {
+        "rowId": 118,
+        "IssueNumber": "2022101010696",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "54480"
+    },
+    {
+        "rowId": 119,
+        "IssueNumber": "2022101010695",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "25583"
+    },
+    {
+        "rowId": 120,
+        "IssueNumber": "2022101010694",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "68469"
+    },
+    {
+        "rowId": 121,
+        "IssueNumber": "2022101010693",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "32024"
+    },
+    {
+        "rowId": 122,
+        "IssueNumber": "2022101010692",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "08756"
+    },
+    {
+        "rowId": 123,
+        "IssueNumber": "2022101010691",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "92409"
+    },
+    {
+        "rowId": 124,
+        "IssueNumber": "2022101010690",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "13453"
+    },
+    {
+        "rowId": 125,
+        "IssueNumber": "2022101010689",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "39564"
+    },
+    {
+        "rowId": 126,
+        "IssueNumber": "2022101010688",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "58918"
+    },
+    {
+        "rowId": 127,
+        "IssueNumber": "2022101010687",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "81203"
+    },
+    {
+        "rowId": 128,
+        "IssueNumber": "2022101010686",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "31254"
+    },
+    {
+        "rowId": 129,
+        "IssueNumber": "2022101010685",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "15822"
+    },
+    {
+        "rowId": 130,
+        "IssueNumber": "2022101010684",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "16451"
+    },
+    {
+        "rowId": 131,
+        "IssueNumber": "2022101010683",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "32413"
+    },
+    {
+        "rowId": 132,
+        "IssueNumber": "2022101010682",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "94912"
+    },
+    {
+        "rowId": 133,
+        "IssueNumber": "2022101010681",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "50072"
+    },
+    {
+        "rowId": 134,
+        "IssueNumber": "2022101010680",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "60741"
+    },
+    {
+        "rowId": 135,
+        "IssueNumber": "2022101010679",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "18353"
+    },
+    {
+        "rowId": 136,
+        "IssueNumber": "2022101010678",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "50157"
+    },
+    {
+        "rowId": 137,
+        "IssueNumber": "2022101010677",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "17851"
+    },
+    {
+        "rowId": 138,
+        "IssueNumber": "2022101010676",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "09232"
+    },
+    {
+        "rowId": 139,
+        "IssueNumber": "2022101010675",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "93114"
+    },
+    {
+        "rowId": 140,
+        "IssueNumber": "2022101010674",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "22882"
+    },
+    {
+        "rowId": 141,
+        "IssueNumber": "2022101010673",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "06260"
+    },
+    {
+        "rowId": 142,
+        "IssueNumber": "2022101010672",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "70401"
+    },
+    {
+        "rowId": 143,
+        "IssueNumber": "2022101010671",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "79990"
+    },
+    {
+        "rowId": 144,
+        "IssueNumber": "2022101010670",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "53972"
+    },
+    {
+        "rowId": 145,
+        "IssueNumber": "2022101010669",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "23255"
+    },
+    {
+        "rowId": 146,
+        "IssueNumber": "2022101010668",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "01186"
+    },
+    {
+        "rowId": 147,
+        "IssueNumber": "2022101010667",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "25531"
+    },
+    {
+        "rowId": 148,
+        "IssueNumber": "2022101010666",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "16887"
+    },
+    {
+        "rowId": 149,
+        "IssueNumber": "2022101010665",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "73875"
+    },
+    {
+        "rowId": 150,
+        "IssueNumber": "2022101010664",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "56519"
+    },
+    {
+        "rowId": 151,
+        "IssueNumber": "2022101010663",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "00818"
+    },
+    {
+        "rowId": 152,
+        "IssueNumber": "2022101010662",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "91976"
+    },
+    {
+        "rowId": 153,
+        "IssueNumber": "2022101010661",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "35775"
+    },
+    {
+        "rowId": 154,
+        "IssueNumber": "2022101010660",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "91596"
+    },
+    {
+        "rowId": 155,
+        "IssueNumber": "2022101010659",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "27902"
+    },
+    {
+        "rowId": 156,
+        "IssueNumber": "2022101010658",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "38424"
+    },
+    {
+        "rowId": 157,
+        "IssueNumber": "2022101010657",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "86038"
+    },
+    {
+        "rowId": 158,
+        "IssueNumber": "2022101010656",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "04354"
+    },
+    {
+        "rowId": 159,
+        "IssueNumber": "2022101010655",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "73025"
+    },
+    {
+        "rowId": 160,
+        "IssueNumber": "2022101010654",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "19691"
+    },
+    {
+        "rowId": 161,
+        "IssueNumber": "2022101010653",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "74531"
+    },
+    {
+        "rowId": 162,
+        "IssueNumber": "2022101010652",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "12667"
+    },
+    {
+        "rowId": 163,
+        "IssueNumber": "2022101010651",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "86678"
+    },
+    {
+        "rowId": 164,
+        "IssueNumber": "2022101010650",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "14375"
+    },
+    {
+        "rowId": 165,
+        "IssueNumber": "2022101010649",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "66993"
+    },
+    {
+        "rowId": 166,
+        "IssueNumber": "2022101010648",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "27267"
+    },
+    {
+        "rowId": 167,
+        "IssueNumber": "2022101010647",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "93171"
+    },
+    {
+        "rowId": 168,
+        "IssueNumber": "2022101010646",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "93347"
+    },
+    {
+        "rowId": 169,
+        "IssueNumber": "2022101010645",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "19468"
+    },
+    {
+        "rowId": 170,
+        "IssueNumber": "2022101010644",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "61218"
+    },
+    {
+        "rowId": 171,
+        "IssueNumber": "2022101010643",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "75447"
+    },
+    {
+        "rowId": 172,
+        "IssueNumber": "2022101010642",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "02781"
+    },
+    {
+        "rowId": 173,
+        "IssueNumber": "2022101010641",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "88997"
+    },
+    {
+        "rowId": 174,
+        "IssueNumber": "2022101010640",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "74287"
+    },
+    {
+        "rowId": 175,
+        "IssueNumber": "2022101010639",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "73186"
+    },
+    {
+        "rowId": 176,
+        "IssueNumber": "2022101010638",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "47171"
+    },
+    {
+        "rowId": 177,
+        "IssueNumber": "2022101010637",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "14066"
+    },
+    {
+        "rowId": 178,
+        "IssueNumber": "2022101010636",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "52730"
+    },
+    {
+        "rowId": 179,
+        "IssueNumber": "2022101010635",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "72995"
+    },
+    {
+        "rowId": 180,
+        "IssueNumber": "2022101010634",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "91408"
+    },
+    {
+        "rowId": 181,
+        "IssueNumber": "2022101010633",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "07100"
+    },
+    {
+        "rowId": 182,
+        "IssueNumber": "2022101010632",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "70391"
+    },
+    {
+        "rowId": 183,
+        "IssueNumber": "2022101010631",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "79281"
+    },
+    {
+        "rowId": 184,
+        "IssueNumber": "2022101010630",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "93383"
+    },
+    {
+        "rowId": 185,
+        "IssueNumber": "2022101010629",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "31583"
+    },
+    {
+        "rowId": 186,
+        "IssueNumber": "2022101010628",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "85273"
+    },
+    {
+        "rowId": 187,
+        "IssueNumber": "2022101010627",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "85179"
+    },
+    {
+        "rowId": 188,
+        "IssueNumber": "2022101010626",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "73423"
+    },
+    {
+        "rowId": 189,
+        "IssueNumber": "2022101010625",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "21180"
+    },
+    {
+        "rowId": 190,
+        "IssueNumber": "2022101010624",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "16335"
+    },
+    {
+        "rowId": 191,
+        "IssueNumber": "2022101010623",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "15914"
+    },
+    {
+        "rowId": 192,
+        "IssueNumber": "2022101010622",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "34107"
+    },
+    {
+        "rowId": 193,
+        "IssueNumber": "2022101010621",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "58868"
+    },
+    {
+        "rowId": 194,
+        "IssueNumber": "2022101010620",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "73296"
+    },
+    {
+        "rowId": 195,
+        "IssueNumber": "2022101010619",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "64245"
+    },
+    {
+        "rowId": 196,
+        "IssueNumber": "2022101010618",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "70971"
+    },
+    {
+        "rowId": 197,
+        "IssueNumber": "2022101010617",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "49715"
+    },
+    {
+        "rowId": 198,
+        "IssueNumber": "2022101010616",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "10096"
+    },
+    {
+        "rowId": 199,
+        "IssueNumber": "2022101010615",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "51437"
+    },
+    {
+        "rowId": 200,
+        "IssueNumber": "2022101010614",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "38580"
+    },
+    {
+        "rowId": 201,
+        "IssueNumber": "2022101010613",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "23211"
+    },
+    {
+        "rowId": 202,
+        "IssueNumber": "2022101010612",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "75909"
+    },
+    {
+        "rowId": 203,
+        "IssueNumber": "2022101010611",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "69749"
+    },
+    {
+        "rowId": 204,
+        "IssueNumber": "2022101010610",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "48025"
+    },
+    {
+        "rowId": 205,
+        "IssueNumber": "2022101010609",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "88069"
+    },
+    {
+        "rowId": 206,
+        "IssueNumber": "2022101010608",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "12185"
+    },
+    {
+        "rowId": 207,
+        "IssueNumber": "2022101010607",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "91150"
+    },
+    {
+        "rowId": 208,
+        "IssueNumber": "2022101010606",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "54682"
+    },
+    {
+        "rowId": 209,
+        "IssueNumber": "2022101010605",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "93789"
+    },
+    {
+        "rowId": 210,
+        "IssueNumber": "2022101010604",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "69305"
+    },
+    {
+        "rowId": 211,
+        "IssueNumber": "2022101010603",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "90226"
+    },
+    {
+        "rowId": 212,
+        "IssueNumber": "2022101010602",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "94736"
+    },
+    {
+        "rowId": 213,
+        "IssueNumber": "2022101010601",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "02168"
+    },
+    {
+        "rowId": 214,
+        "IssueNumber": "2022101010600",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "09528"
+    },
+    {
+        "rowId": 215,
+        "IssueNumber": "2022101010599",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "71161"
+    },
+    {
+        "rowId": 216,
+        "IssueNumber": "2022101010598",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "39678"
+    },
+    {
+        "rowId": 217,
+        "IssueNumber": "2022101010597",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "78889"
+    },
+    {
+        "rowId": 218,
+        "IssueNumber": "2022101010596",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "24117"
+    },
+    {
+        "rowId": 219,
+        "IssueNumber": "2022101010595",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "28537"
+    },
+    {
+        "rowId": 220,
+        "IssueNumber": "2022101010594",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "79797"
+    },
+    {
+        "rowId": 221,
+        "IssueNumber": "2022101010593",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "34704"
+    },
+    {
+        "rowId": 222,
+        "IssueNumber": "2022101010592",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "80979"
+    },
+    {
+        "rowId": 223,
+        "IssueNumber": "2022101010591",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "57981"
+    },
+    {
+        "rowId": 224,
+        "IssueNumber": "2022101010590",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "96496"
+    },
+    {
+        "rowId": 225,
+        "IssueNumber": "2022101010589",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "46102"
+    },
+    {
+        "rowId": 226,
+        "IssueNumber": "2022101010588",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "90732"
+    },
+    {
+        "rowId": 227,
+        "IssueNumber": "2022101010587",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "38833"
+    },
+    {
+        "rowId": 228,
+        "IssueNumber": "2022101010586",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "92864"
+    },
+    {
+        "rowId": 229,
+        "IssueNumber": "2022101010585",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "55758"
+    },
+    {
+        "rowId": 230,
+        "IssueNumber": "2022101010584",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "01993"
+    },
+    {
+        "rowId": 231,
+        "IssueNumber": "2022101010583",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "35663"
+    },
+    {
+        "rowId": 232,
+        "IssueNumber": "2022101010582",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "48637"
+    },
+    {
+        "rowId": 233,
+        "IssueNumber": "2022101010581",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "41518"
+    },
+    {
+        "rowId": 234,
+        "IssueNumber": "2022101010580",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "47749"
+    },
+    {
+        "rowId": 235,
+        "IssueNumber": "2022101010579",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "81519"
+    },
+    {
+        "rowId": 236,
+        "IssueNumber": "2022101010578",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "70937"
+    },
+    {
+        "rowId": 237,
+        "IssueNumber": "2022101010577",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "56121"
+    },
+    {
+        "rowId": 238,
+        "IssueNumber": "2022101010576",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "83366"
+    },
+    {
+        "rowId": 239,
+        "IssueNumber": "2022101010575",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "07781"
+    },
+    {
+        "rowId": 240,
+        "IssueNumber": "2022101010574",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "08355"
+    },
+    {
+        "rowId": 241,
+        "IssueNumber": "2022101010573",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "87975"
+    },
+    {
+        "rowId": 242,
+        "IssueNumber": "2022101010572",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "90705"
+    },
+    {
+        "rowId": 243,
+        "IssueNumber": "2022101010571",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "07900"
+    },
+    {
+        "rowId": 244,
+        "IssueNumber": "2022101010570",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "01137"
+    },
+    {
+        "rowId": 245,
+        "IssueNumber": "2022101010569",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "19333"
+    },
+    {
+        "rowId": 246,
+        "IssueNumber": "2022101010568",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "26149"
+    },
+    {
+        "rowId": 247,
+        "IssueNumber": "2022101010567",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "94929"
+    },
+    {
+        "rowId": 248,
+        "IssueNumber": "2022101010566",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "15435"
+    },
+    {
+        "rowId": 249,
+        "IssueNumber": "2022101010565",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "50320"
+    },
+    {
+        "rowId": 250,
+        "IssueNumber": "2022101010564",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "76087"
+    },
+    {
+        "rowId": 251,
+        "IssueNumber": "2022101010563",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "64157"
+    },
+    {
+        "rowId": 252,
+        "IssueNumber": "2022101010562",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "79546"
+    },
+    {
+        "rowId": 253,
+        "IssueNumber": "2022101010561",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "36113"
+    },
+    {
+        "rowId": 254,
+        "IssueNumber": "2022101010560",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "88457"
+    },
+    {
+        "rowId": 255,
+        "IssueNumber": "2022101010559",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "03113"
+    },
+    {
+        "rowId": 256,
+        "IssueNumber": "2022101010558",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "57679"
+    },
+    {
+        "rowId": 257,
+        "IssueNumber": "2022101010557",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "95455"
+    },
+    {
+        "rowId": 258,
+        "IssueNumber": "2022101010556",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "85027"
+    },
+    {
+        "rowId": 259,
+        "IssueNumber": "2022101010555",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "25182"
+    },
+    {
+        "rowId": 260,
+        "IssueNumber": "2022101010554",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "20011"
+    },
+    {
+        "rowId": 261,
+        "IssueNumber": "2022101010553",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "24315"
+    },
+    {
+        "rowId": 262,
+        "IssueNumber": "2022101010552",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "16336"
+    },
+    {
+        "rowId": 263,
+        "IssueNumber": "2022101010551",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "70817"
+    },
+    {
+        "rowId": 264,
+        "IssueNumber": "2022101010550",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "78933"
+    },
+    {
+        "rowId": 265,
+        "IssueNumber": "2022101010549",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "19116"
+    },
+    {
+        "rowId": 266,
+        "IssueNumber": "2022101010548",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "49167"
+    },
+    {
+        "rowId": 267,
+        "IssueNumber": "2022101010547",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "49292"
+    },
+    {
+        "rowId": 268,
+        "IssueNumber": "2022101010546",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "04848"
+    },
+    {
+        "rowId": 269,
+        "IssueNumber": "2022101010545",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "89266"
+    },
+    {
+        "rowId": 270,
+        "IssueNumber": "2022101010544",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "25848"
+    },
+    {
+        "rowId": 271,
+        "IssueNumber": "2022101010543",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "38419"
+    },
+    {
+        "rowId": 272,
+        "IssueNumber": "2022101010542",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "76969"
+    },
+    {
+        "rowId": 273,
+        "IssueNumber": "2022101010541",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "83617"
+    },
+    {
+        "rowId": 274,
+        "IssueNumber": "2022101010540",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "50422"
+    },
+    {
+        "rowId": 275,
+        "IssueNumber": "2022101010539",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "59847"
+    },
+    {
+        "rowId": 276,
+        "IssueNumber": "2022101010538",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "00249"
+    },
+    {
+        "rowId": 277,
+        "IssueNumber": "2022101010537",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "93218"
+    },
+    {
+        "rowId": 278,
+        "IssueNumber": "2022101010536",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "22085"
+    },
+    {
+        "rowId": 279,
+        "IssueNumber": "2022101010535",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "96088"
+    },
+    {
+        "rowId": 280,
+        "IssueNumber": "2022101010534",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "83877"
+    },
+    {
+        "rowId": 281,
+        "IssueNumber": "2022101010533",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "33742"
+    },
+    {
+        "rowId": 282,
+        "IssueNumber": "2022101010532",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "83258"
+    },
+    {
+        "rowId": 283,
+        "IssueNumber": "2022101010531",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "40051"
+    },
+    {
+        "rowId": 284,
+        "IssueNumber": "2022101010530",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "95728"
+    },
+    {
+        "rowId": 285,
+        "IssueNumber": "2022101010529",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "11685"
+    },
+    {
+        "rowId": 286,
+        "IssueNumber": "2022101010528",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "12162"
+    },
+    {
+        "rowId": 287,
+        "IssueNumber": "2022101010527",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "02030"
+    },
+    {
+        "rowId": 288,
+        "IssueNumber": "2022101010526",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "81207"
+    },
+    {
+        "rowId": 289,
+        "IssueNumber": "2022101010525",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "80415"
+    },
+    {
+        "rowId": 290,
+        "IssueNumber": "2022101010524",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "37820"
+    },
+    {
+        "rowId": 291,
+        "IssueNumber": "2022101010523",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "49280"
+    },
+    {
+        "rowId": 292,
+        "IssueNumber": "2022101010522",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "79030"
+    },
+    {
+        "rowId": 293,
+        "IssueNumber": "2022101010521",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "83643"
+    },
+    {
+        "rowId": 294,
+        "IssueNumber": "2022101010520",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "88355"
+    },
+    {
+        "rowId": 295,
+        "IssueNumber": "2022101010519",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "84275"
+    },
+    {
+        "rowId": 296,
+        "IssueNumber": "2022101010518",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "98669"
+    },
+    {
+        "rowId": 297,
+        "IssueNumber": "2022101010517",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "84598"
+    },
+    {
+        "rowId": 298,
+        "IssueNumber": "2022101010516",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "45534"
+    },
+    {
+        "rowId": 299,
+        "IssueNumber": "2022101010515",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "42593"
+    },
+    {
+        "rowId": 300,
+        "IssueNumber": "2022101010514",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "73288"
+    },
+    {
+        "rowId": 301,
+        "IssueNumber": "2022101010513",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "36321"
+    },
+    {
+        "rowId": 302,
+        "IssueNumber": "2022101010512",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "83026"
+    },
+    {
+        "rowId": 303,
+        "IssueNumber": "2022101010511",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "39352"
+    },
+    {
+        "rowId": 304,
+        "IssueNumber": "2022101010510",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "91460"
+    },
+    {
+        "rowId": 305,
+        "IssueNumber": "2022101010509",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "46143"
+    },
+    {
+        "rowId": 306,
+        "IssueNumber": "2022101010508",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "25637"
+    },
+    {
+        "rowId": 307,
+        "IssueNumber": "2022101010507",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "55675"
+    },
+    {
+        "rowId": 308,
+        "IssueNumber": "2022101010506",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "24740"
+    },
+    {
+        "rowId": 309,
+        "IssueNumber": "2022101010505",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "66166"
+    },
+    {
+        "rowId": 310,
+        "IssueNumber": "2022101010504",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "97816"
+    },
+    {
+        "rowId": 311,
+        "IssueNumber": "2022101010503",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "64589"
+    },
+    {
+        "rowId": 312,
+        "IssueNumber": "2022101010502",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "40711"
+    },
+    {
+        "rowId": 313,
+        "IssueNumber": "2022101010501",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "82871"
+    },
+    {
+        "rowId": 314,
+        "IssueNumber": "2022101010500",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "68961"
+    },
+    {
+        "rowId": 315,
+        "IssueNumber": "2022101010499",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "14216"
+    },
+    {
+        "rowId": 316,
+        "IssueNumber": "2022101010498",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "98329"
+    },
+    {
+        "rowId": 317,
+        "IssueNumber": "2022101010497",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "27796"
+    },
+    {
+        "rowId": 318,
+        "IssueNumber": "2022101010496",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "33649"
+    },
+    {
+        "rowId": 319,
+        "IssueNumber": "2022101010495",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "72707"
+    },
+    {
+        "rowId": 320,
+        "IssueNumber": "2022101010494",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "49642"
+    },
+    {
+        "rowId": 321,
+        "IssueNumber": "2022101010493",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "01586"
+    },
+    {
+        "rowId": 322,
+        "IssueNumber": "2022101010492",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "99475"
+    },
+    {
+        "rowId": 323,
+        "IssueNumber": "2022101010491",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "34033"
+    },
+    {
+        "rowId": 324,
+        "IssueNumber": "2022101010490",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "88301"
+    },
+    {
+        "rowId": 325,
+        "IssueNumber": "2022101010489",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "61086"
+    },
+    {
+        "rowId": 326,
+        "IssueNumber": "2022101010488",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "07804"
+    },
+    {
+        "rowId": 327,
+        "IssueNumber": "2022101010487",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "67929"
+    },
+    {
+        "rowId": 328,
+        "IssueNumber": "2022101010486",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "94400"
+    },
+    {
+        "rowId": 329,
+        "IssueNumber": "2022101010485",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "95486"
+    },
+    {
+        "rowId": 330,
+        "IssueNumber": "2022101010484",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "90880"
+    },
+    {
+        "rowId": 331,
+        "IssueNumber": "2022101010483",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "25900"
+    },
+    {
+        "rowId": 332,
+        "IssueNumber": "2022101010482",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "02808"
+    },
+    {
+        "rowId": 333,
+        "IssueNumber": "2022101010481",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "49059"
+    },
+    {
+        "rowId": 334,
+        "IssueNumber": "2022101010480",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "60204"
+    },
+    {
+        "rowId": 335,
+        "IssueNumber": "2022101010479",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "61235"
+    },
+    {
+        "rowId": 336,
+        "IssueNumber": "2022101010478",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "99317"
+    },
+    {
+        "rowId": 337,
+        "IssueNumber": "2022101010477",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "18386"
+    },
+    {
+        "rowId": 338,
+        "IssueNumber": "2022101010476",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "37364"
+    },
+    {
+        "rowId": 339,
+        "IssueNumber": "2022101010475",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "66822"
+    },
+    {
+        "rowId": 340,
+        "IssueNumber": "2022101010474",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "52277"
+    },
+    {
+        "rowId": 341,
+        "IssueNumber": "2022101010473",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "99885"
+    },
+    {
+        "rowId": 342,
+        "IssueNumber": "2022101010472",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "58556"
+    },
+    {
+        "rowId": 343,
+        "IssueNumber": "2022101010471",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "88011"
+    },
+    {
+        "rowId": 344,
+        "IssueNumber": "2022101010470",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "09515"
+    },
+    {
+        "rowId": 345,
+        "IssueNumber": "2022101010469",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "05065"
+    },
+    {
+        "rowId": 346,
+        "IssueNumber": "2022101010468",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "07583"
+    },
+    {
+        "rowId": 347,
+        "IssueNumber": "2022101010467",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "71547"
+    },
+    {
+        "rowId": 348,
+        "IssueNumber": "2022101010466",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "90661"
+    },
+    {
+        "rowId": 349,
+        "IssueNumber": "2022101010465",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "11738"
+    },
+    {
+        "rowId": 350,
+        "IssueNumber": "2022101010464",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "60173"
+    },
+    {
+        "rowId": 351,
+        "IssueNumber": "2022101010463",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "81646"
+    },
+    {
+        "rowId": 352,
+        "IssueNumber": "2022101010462",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "97947"
+    },
+    {
+        "rowId": 353,
+        "IssueNumber": "2022101010461",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "55257"
+    },
+    {
+        "rowId": 354,
+        "IssueNumber": "2022101010460",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "28377"
+    },
+    {
+        "rowId": 355,
+        "IssueNumber": "2022101010459",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "63809"
+    },
+    {
+        "rowId": 356,
+        "IssueNumber": "2022101010458",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "38282"
+    },
+    {
+        "rowId": 357,
+        "IssueNumber": "2022101010457",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "85634"
+    },
+    {
+        "rowId": 358,
+        "IssueNumber": "2022101010456",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "14639"
+    },
+    {
+        "rowId": 359,
+        "IssueNumber": "2022101010455",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "53066"
+    },
+    {
+        "rowId": 360,
+        "IssueNumber": "2022101010454",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "51827"
+    },
+    {
+        "rowId": 361,
+        "IssueNumber": "2022101010453",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "75157"
+    },
+    {
+        "rowId": 362,
+        "IssueNumber": "2022101010452",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "39268"
+    },
+    {
+        "rowId": 363,
+        "IssueNumber": "2022101010451",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "36408"
+    },
+    {
+        "rowId": 364,
+        "IssueNumber": "2022101010450",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "40417"
+    },
+    {
+        "rowId": 365,
+        "IssueNumber": "2022101010449",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "81656"
+    },
+    {
+        "rowId": 366,
+        "IssueNumber": "2022101010448",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "69436"
+    },
+    {
+        "rowId": 367,
+        "IssueNumber": "2022101010447",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "08489"
+    },
+    {
+        "rowId": 368,
+        "IssueNumber": "2022101010446",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "25832"
+    },
+    {
+        "rowId": 369,
+        "IssueNumber": "2022101010445",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "88144"
+    },
+    {
+        "rowId": 370,
+        "IssueNumber": "2022101010444",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "85816"
+    },
+    {
+        "rowId": 371,
+        "IssueNumber": "2022101010443",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "99484"
+    },
+    {
+        "rowId": 372,
+        "IssueNumber": "2022101010442",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "17769"
+    },
+    {
+        "rowId": 373,
+        "IssueNumber": "2022101010441",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "17577"
+    },
+    {
+        "rowId": 374,
+        "IssueNumber": "2022101010440",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "25913"
+    },
+    {
+        "rowId": 375,
+        "IssueNumber": "2022101010439",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "58039"
+    },
+    {
+        "rowId": 376,
+        "IssueNumber": "2022101010438",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "51548"
+    },
+    {
+        "rowId": 377,
+        "IssueNumber": "2022101010437",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "33694"
+    },
+    {
+        "rowId": 378,
+        "IssueNumber": "2022101010436",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "39341"
+    },
+    {
+        "rowId": 379,
+        "IssueNumber": "2022101010435",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "13509"
+    },
+    {
+        "rowId": 380,
+        "IssueNumber": "2022101010434",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "65765"
+    },
+    {
+        "rowId": 381,
+        "IssueNumber": "2022101010433",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "55545"
+    },
+    {
+        "rowId": 382,
+        "IssueNumber": "2022101010432",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "91858"
+    },
+    {
+        "rowId": 383,
+        "IssueNumber": "2022101010431",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "54165"
+    },
+    {
+        "rowId": 384,
+        "IssueNumber": "2022101010430",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "04025"
+    },
+    {
+        "rowId": 385,
+        "IssueNumber": "2022101010429",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "64315"
+    },
+    {
+        "rowId": 386,
+        "IssueNumber": "2022101010428",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "03116"
+    },
+    {
+        "rowId": 387,
+        "IssueNumber": "2022101010427",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "25513"
+    },
+    {
+        "rowId": 388,
+        "IssueNumber": "2022101010426",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "68947"
+    },
+    {
+        "rowId": 389,
+        "IssueNumber": "2022101010425",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "15224"
+    },
+    {
+        "rowId": 390,
+        "IssueNumber": "2022101010424",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "17909"
+    },
+    {
+        "rowId": 391,
+        "IssueNumber": "2022101010423",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "50330"
+    },
+    {
+        "rowId": 392,
+        "IssueNumber": "2022101010422",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "01061"
+    },
+    {
+        "rowId": 393,
+        "IssueNumber": "2022101010421",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "71385"
+    },
+    {
+        "rowId": 394,
+        "IssueNumber": "2022101010420",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "14911"
+    },
+    {
+        "rowId": 395,
+        "IssueNumber": "2022101010419",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "12463"
+    },
+    {
+        "rowId": 396,
+        "IssueNumber": "2022101010418",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "82085"
+    },
+    {
+        "rowId": 397,
+        "IssueNumber": "2022101010417",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "44476"
+    },
+    {
+        "rowId": 398,
+        "IssueNumber": "2022101010416",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "97087"
+    },
+    {
+        "rowId": 399,
+        "IssueNumber": "2022101010415",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "64867"
+    },
+    {
+        "rowId": 400,
+        "IssueNumber": "2022101010414",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "85045"
+    },
+    {
+        "rowId": 401,
+        "IssueNumber": "2022101010413",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "29122"
+    },
+    {
+        "rowId": 402,
+        "IssueNumber": "2022101010412",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "31218"
+    },
+    {
+        "rowId": 403,
+        "IssueNumber": "2022101010411",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "77347"
+    },
+    {
+        "rowId": 404,
+        "IssueNumber": "2022101010410",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "37384"
+    },
+    {
+        "rowId": 405,
+        "IssueNumber": "2022101010409",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "96744"
+    },
+    {
+        "rowId": 406,
+        "IssueNumber": "2022101010408",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "39226"
+    },
+    {
+        "rowId": 407,
+        "IssueNumber": "2022101010407",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "34947"
+    },
+    {
+        "rowId": 408,
+        "IssueNumber": "2022101010406",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "88766"
+    },
+    {
+        "rowId": 409,
+        "IssueNumber": "2022101010405",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "36907"
+    },
+    {
+        "rowId": 410,
+        "IssueNumber": "2022101010404",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "46647"
+    },
+    {
+        "rowId": 411,
+        "IssueNumber": "2022101010403",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "11550"
+    },
+    {
+        "rowId": 412,
+        "IssueNumber": "2022101010402",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "06581"
+    },
+    {
+        "rowId": 413,
+        "IssueNumber": "2022101010401",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "66882"
+    },
+    {
+        "rowId": 414,
+        "IssueNumber": "2022101010400",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "30015"
+    },
+    {
+        "rowId": 415,
+        "IssueNumber": "2022101010399",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "81489"
+    },
+    {
+        "rowId": 416,
+        "IssueNumber": "2022101010398",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "47204"
+    },
+    {
+        "rowId": 417,
+        "IssueNumber": "2022101010397",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "62047"
+    },
+    {
+        "rowId": 418,
+        "IssueNumber": "2022101010396",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "62533"
+    },
+    {
+        "rowId": 419,
+        "IssueNumber": "2022101010395",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "96572"
+    },
+    {
+        "rowId": 420,
+        "IssueNumber": "2022101010394",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "56006"
+    },
+    {
+        "rowId": 421,
+        "IssueNumber": "2022101010393",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "62709"
+    },
+    {
+        "rowId": 422,
+        "IssueNumber": "2022101010392",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "38551"
+    },
+    {
+        "rowId": 423,
+        "IssueNumber": "2022101010391",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "78888"
+    },
+    {
+        "rowId": 424,
+        "IssueNumber": "2022101010390",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "39904"
+    },
+    {
+        "rowId": 425,
+        "IssueNumber": "2022101010389",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "08091"
+    },
+    {
+        "rowId": 426,
+        "IssueNumber": "2022101010388",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "77108"
+    },
+    {
+        "rowId": 427,
+        "IssueNumber": "2022101010387",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "06876"
+    },
+    {
+        "rowId": 428,
+        "IssueNumber": "2022101010386",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "53367"
+    },
+    {
+        "rowId": 429,
+        "IssueNumber": "2022101010385",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "11656"
+    },
+    {
+        "rowId": 430,
+        "IssueNumber": "2022101010384",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "65284"
+    },
+    {
+        "rowId": 431,
+        "IssueNumber": "2022101010383",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "17081"
+    },
+    {
+        "rowId": 432,
+        "IssueNumber": "2022101010382",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "95141"
+    },
+    {
+        "rowId": 433,
+        "IssueNumber": "2022101010381",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "07117"
+    },
+    {
+        "rowId": 434,
+        "IssueNumber": "2022101010380",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "92861"
+    },
+    {
+        "rowId": 435,
+        "IssueNumber": "2022101010379",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "91426"
+    },
+    {
+        "rowId": 436,
+        "IssueNumber": "2022101010378",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "13516"
+    },
+    {
+        "rowId": 437,
+        "IssueNumber": "2022101010377",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "50644"
+    },
+    {
+        "rowId": 438,
+        "IssueNumber": "2022101010376",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "20019"
+    },
+    {
+        "rowId": 439,
+        "IssueNumber": "2022101010375",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "22560"
+    },
+    {
+        "rowId": 440,
+        "IssueNumber": "2022101010374",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "90066"
+    },
+    {
+        "rowId": 441,
+        "IssueNumber": "2022101010373",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "80027"
+    },
+    {
+        "rowId": 442,
+        "IssueNumber": "2022101010372",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "89331"
+    },
+    {
+        "rowId": 443,
+        "IssueNumber": "2022101010371",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "46094"
+    },
+    {
+        "rowId": 444,
+        "IssueNumber": "2022101010370",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "89593"
+    },
+    {
+        "rowId": 445,
+        "IssueNumber": "2022101010369",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "40251"
+    },
+    {
+        "rowId": 446,
+        "IssueNumber": "2022101010368",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "32890"
+    },
+    {
+        "rowId": 447,
+        "IssueNumber": "2022101010367",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "39228"
+    },
+    {
+        "rowId": 448,
+        "IssueNumber": "2022101010366",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "48380"
+    },
+    {
+        "rowId": 449,
+        "IssueNumber": "2022101010365",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "40020"
+    },
+    {
+        "rowId": 450,
+        "IssueNumber": "2022101010364",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "04011"
+    },
+    {
+        "rowId": 451,
+        "IssueNumber": "2022101010363",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "34303"
+    },
+    {
+        "rowId": 452,
+        "IssueNumber": "2022101010362",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "07909"
+    },
+    {
+        "rowId": 453,
+        "IssueNumber": "2022101010361",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "42197"
+    },
+    {
+        "rowId": 454,
+        "IssueNumber": "2022101010360",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "89870"
+    },
+    {
+        "rowId": 455,
+        "IssueNumber": "2022101010359",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "42940"
+    },
+    {
+        "rowId": 456,
+        "IssueNumber": "2022101010358",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "78967"
+    },
+    {
+        "rowId": 457,
+        "IssueNumber": "2022101010357",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "53859"
+    },
+    {
+        "rowId": 458,
+        "IssueNumber": "2022101010356",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "42089"
+    },
+    {
+        "rowId": 459,
+        "IssueNumber": "2022101010355",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "42504"
+    },
+    {
+        "rowId": 460,
+        "IssueNumber": "2022101010354",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "52759"
+    },
+    {
+        "rowId": 461,
+        "IssueNumber": "2022101010353",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "49431"
+    },
+    {
+        "rowId": 462,
+        "IssueNumber": "2022101010352",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "83074"
+    },
+    {
+        "rowId": 463,
+        "IssueNumber": "2022101010351",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "52546"
+    },
+    {
+        "rowId": 464,
+        "IssueNumber": "2022101010350",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "48395"
+    },
+    {
+        "rowId": 465,
+        "IssueNumber": "2022101010349",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "43472"
+    },
+    {
+        "rowId": 466,
+        "IssueNumber": "2022101010348",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "43144"
+    },
+    {
+        "rowId": 467,
+        "IssueNumber": "2022101010347",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "72422"
+    },
+    {
+        "rowId": 468,
+        "IssueNumber": "2022101010346",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "24194"
+    },
+    {
+        "rowId": 469,
+        "IssueNumber": "2022101010345",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "31115"
+    },
+    {
+        "rowId": 470,
+        "IssueNumber": "2022101010344",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "60994"
+    },
+    {
+        "rowId": 471,
+        "IssueNumber": "2022101010343",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "36005"
+    },
+    {
+        "rowId": 472,
+        "IssueNumber": "2022101010342",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "46339"
+    },
+    {
+        "rowId": 473,
+        "IssueNumber": "2022101010341",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "50630"
+    },
+    {
+        "rowId": 474,
+        "IssueNumber": "2022101010340",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "44481"
+    },
+    {
+        "rowId": 475,
+        "IssueNumber": "2022101010339",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "65122"
+    },
+    {
+        "rowId": 476,
+        "IssueNumber": "2022101010338",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "41578"
+    },
+    {
+        "rowId": 477,
+        "IssueNumber": "2022101010337",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "44524"
+    },
+    {
+        "rowId": 478,
+        "IssueNumber": "2022101010336",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "27849"
+    },
+    {
+        "rowId": 479,
+        "IssueNumber": "2022101010335",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "22771"
+    },
+    {
+        "rowId": 480,
+        "IssueNumber": "2022101010334",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "43878"
+    },
+    {
+        "rowId": 481,
+        "IssueNumber": "2022101010333",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "18583"
+    },
+    {
+        "rowId": 482,
+        "IssueNumber": "2022101010332",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "58670"
+    },
+    {
+        "rowId": 483,
+        "IssueNumber": "2022101010331",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "78066"
+    },
+    {
+        "rowId": 484,
+        "IssueNumber": "2022101010330",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "87260"
+    },
+    {
+        "rowId": 485,
+        "IssueNumber": "2022101010329",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "18652"
+    },
+    {
+        "rowId": 486,
+        "IssueNumber": "2022101010328",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "18462"
+    },
+    {
+        "rowId": 487,
+        "IssueNumber": "2022101010327",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "39804"
+    },
+    {
+        "rowId": 488,
+        "IssueNumber": "2022101010326",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "54358"
+    },
+    {
+        "rowId": 489,
+        "IssueNumber": "2022101010325",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "23559"
+    },
+    {
+        "rowId": 490,
+        "IssueNumber": "2022101010324",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "81678"
+    },
+    {
+        "rowId": 491,
+        "IssueNumber": "2022101010323",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "49824"
+    },
+    {
+        "rowId": 492,
+        "IssueNumber": "2022101010322",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "08193"
+    },
+    {
+        "rowId": 493,
+        "IssueNumber": "2022101010321",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "75328"
+    },
+    {
+        "rowId": 494,
+        "IssueNumber": "2022101010320",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "49748"
+    },
+    {
+        "rowId": 495,
+        "IssueNumber": "2022101010319",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "05723"
+    },
+    {
+        "rowId": 496,
+        "IssueNumber": "2022101010318",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "01604"
+    },
+    {
+        "rowId": 497,
+        "IssueNumber": "2022101010317",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "69406"
+    },
+    {
+        "rowId": 498,
+        "IssueNumber": "2022101010316",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "51670"
+    },
+    {
+        "rowId": 499,
+        "IssueNumber": "2022101010315",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "96218"
+    },
+    {
+        "rowId": 500,
+        "IssueNumber": "2022101010314",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "88151"
+    },
+    {
+        "rowId": 501,
+        "IssueNumber": "2022101010313",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "79529"
+    },
+    {
+        "rowId": 502,
+        "IssueNumber": "2022101010312",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "97508"
+    },
+    {
+        "rowId": 503,
+        "IssueNumber": "2022101010311",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "10060"
+    },
+    {
+        "rowId": 504,
+        "IssueNumber": "2022101010310",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "00102"
+    },
+    {
+        "rowId": 505,
+        "IssueNumber": "2022101010309",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "81067"
+    },
+    {
+        "rowId": 506,
+        "IssueNumber": "2022101010308",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "09091"
+    },
+    {
+        "rowId": 507,
+        "IssueNumber": "2022101010307",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "68316"
+    },
+    {
+        "rowId": 508,
+        "IssueNumber": "2022101010306",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "76874"
+    },
+    {
+        "rowId": 509,
+        "IssueNumber": "2022101010305",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "23333"
+    },
+    {
+        "rowId": 510,
+        "IssueNumber": "2022101010304",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "36590"
+    },
+    {
+        "rowId": 511,
+        "IssueNumber": "2022101010303",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "59352"
+    },
+    {
+        "rowId": 512,
+        "IssueNumber": "2022101010302",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "77498"
+    },
+    {
+        "rowId": 513,
+        "IssueNumber": "2022101010301",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "24964"
+    },
+    {
+        "rowId": 514,
+        "IssueNumber": "2022101010300",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "42969"
+    },
+    {
+        "rowId": 515,
+        "IssueNumber": "2022101010299",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "13908"
+    },
+    {
+        "rowId": 516,
+        "IssueNumber": "2022101010298",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "16085"
+    },
+    {
+        "rowId": 517,
+        "IssueNumber": "2022101010297",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "05336"
+    },
+    {
+        "rowId": 518,
+        "IssueNumber": "2022101010296",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "93152"
+    },
+    {
+        "rowId": 519,
+        "IssueNumber": "2022101010295",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "94338"
+    },
+    {
+        "rowId": 520,
+        "IssueNumber": "2022101010294",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "41212"
+    },
+    {
+        "rowId": 521,
+        "IssueNumber": "2022101010293",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "41009"
+    },
+    {
+        "rowId": 522,
+        "IssueNumber": "2022101010292",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "56374"
+    },
+    {
+        "rowId": 523,
+        "IssueNumber": "2022101010291",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "15144"
+    },
+    {
+        "rowId": 524,
+        "IssueNumber": "2022101010290",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "29126"
+    },
+    {
+        "rowId": 525,
+        "IssueNumber": "2022101010289",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "02600"
+    },
+    {
+        "rowId": 526,
+        "IssueNumber": "2022101010288",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "44419"
+    },
+    {
+        "rowId": 527,
+        "IssueNumber": "2022101010287",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "11646"
+    },
+    {
+        "rowId": 528,
+        "IssueNumber": "2022101010286",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "16465"
+    },
+    {
+        "rowId": 529,
+        "IssueNumber": "2022101010285",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "63010"
+    },
+    {
+        "rowId": 530,
+        "IssueNumber": "2022101010284",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "11459"
+    },
+    {
+        "rowId": 531,
+        "IssueNumber": "2022101010283",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "47682"
+    },
+    {
+        "rowId": 532,
+        "IssueNumber": "2022101010282",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "12490"
+    },
+    {
+        "rowId": 533,
+        "IssueNumber": "2022101010281",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "32707"
+    },
+    {
+        "rowId": 534,
+        "IssueNumber": "2022101010280",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "63046"
+    },
+    {
+        "rowId": 535,
+        "IssueNumber": "2022101010279",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "76537"
+    },
+    {
+        "rowId": 536,
+        "IssueNumber": "2022101010278",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "60426"
+    },
+    {
+        "rowId": 537,
+        "IssueNumber": "2022101010277",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "55135"
+    },
+    {
+        "rowId": 538,
+        "IssueNumber": "2022101010276",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "75417"
+    },
+    {
+        "rowId": 539,
+        "IssueNumber": "2022101010275",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "60815"
+    },
+    {
+        "rowId": 540,
+        "IssueNumber": "2022101010274",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "39527"
+    },
+    {
+        "rowId": 541,
+        "IssueNumber": "2022101010273",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "00130"
+    },
+    {
+        "rowId": 542,
+        "IssueNumber": "2022101010272",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "05131"
+    },
+    {
+        "rowId": 543,
+        "IssueNumber": "2022101010271",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "54322"
+    },
+    {
+        "rowId": 544,
+        "IssueNumber": "2022101010270",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "70149"
+    },
+    {
+        "rowId": 545,
+        "IssueNumber": "2022101010269",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "82497"
+    },
+    {
+        "rowId": 546,
+        "IssueNumber": "2022101010268",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "02757"
+    },
+    {
+        "rowId": 547,
+        "IssueNumber": "2022101010267",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "93456"
+    },
+    {
+        "rowId": 548,
+        "IssueNumber": "2022101010266",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "93662"
+    },
+    {
+        "rowId": 549,
+        "IssueNumber": "2022101010265",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "19823"
+    },
+    {
+        "rowId": 550,
+        "IssueNumber": "2022101010264",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "72126"
+    },
+    {
+        "rowId": 551,
+        "IssueNumber": "2022101010263",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "83048"
+    },
+    {
+        "rowId": 552,
+        "IssueNumber": "2022101010262",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "39291"
+    },
+    {
+        "rowId": 553,
+        "IssueNumber": "2022101010261",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "97577"
+    },
+    {
+        "rowId": 554,
+        "IssueNumber": "2022101010260",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "24962"
+    },
+    {
+        "rowId": 555,
+        "IssueNumber": "2022101010259",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "88046"
+    },
+    {
+        "rowId": 556,
+        "IssueNumber": "2022101010258",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "03220"
+    },
+    {
+        "rowId": 557,
+        "IssueNumber": "2022101010257",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "97772"
+    },
+    {
+        "rowId": 558,
+        "IssueNumber": "2022101010256",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "51913"
+    },
+    {
+        "rowId": 559,
+        "IssueNumber": "2022101010255",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "68133"
+    },
+    {
+        "rowId": 560,
+        "IssueNumber": "2022101010254",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "41712"
+    },
+    {
+        "rowId": 561,
+        "IssueNumber": "2022101010253",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "80751"
+    },
+    {
+        "rowId": 562,
+        "IssueNumber": "2022101010252",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "36676"
+    },
+    {
+        "rowId": 563,
+        "IssueNumber": "2022101010251",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "50051"
+    },
+    {
+        "rowId": 564,
+        "IssueNumber": "2022101010250",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "71696"
+    },
+    {
+        "rowId": 565,
+        "IssueNumber": "2022101010249",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "55768"
+    },
+    {
+        "rowId": 566,
+        "IssueNumber": "2022101010248",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "44584"
+    },
+    {
+        "rowId": 567,
+        "IssueNumber": "2022101010247",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "83670"
+    },
+    {
+        "rowId": 568,
+        "IssueNumber": "2022101010246",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "03495"
+    },
+    {
+        "rowId": 569,
+        "IssueNumber": "2022101010245",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "20938"
+    },
+    {
+        "rowId": 570,
+        "IssueNumber": "2022101010244",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "35944"
+    },
+    {
+        "rowId": 571,
+        "IssueNumber": "2022101010243",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "02732"
+    },
+    {
+        "rowId": 572,
+        "IssueNumber": "2022101010242",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "88518"
+    },
+    {
+        "rowId": 573,
+        "IssueNumber": "2022101010241",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "28465"
+    },
+    {
+        "rowId": 574,
+        "IssueNumber": "2022101010240",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "59924"
+    },
+    {
+        "rowId": 575,
+        "IssueNumber": "2022101010239",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "17919"
+    },
+    {
+        "rowId": 576,
+        "IssueNumber": "2022101010238",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "96001"
+    },
+    {
+        "rowId": 577,
+        "IssueNumber": "2022101010237",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "47931"
+    },
+    {
+        "rowId": 578,
+        "IssueNumber": "2022101010236",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "48448"
+    },
+    {
+        "rowId": 579,
+        "IssueNumber": "2022101010235",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "33984"
+    },
+    {
+        "rowId": 580,
+        "IssueNumber": "2022101010234",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "01587"
+    },
+    {
+        "rowId": 581,
+        "IssueNumber": "2022101010233",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "74752"
+    },
+    {
+        "rowId": 582,
+        "IssueNumber": "2022101010232",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "50247"
+    },
+    {
+        "rowId": 583,
+        "IssueNumber": "2022101010231",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "29472"
+    },
+    {
+        "rowId": 584,
+        "IssueNumber": "2022101010230",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "06853"
+    },
+    {
+        "rowId": 585,
+        "IssueNumber": "2022101010229",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "31458"
+    },
+    {
+        "rowId": 586,
+        "IssueNumber": "2022101010228",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "01988"
+    },
+    {
+        "rowId": 587,
+        "IssueNumber": "2022101010227",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "06047"
+    },
+    {
+        "rowId": 588,
+        "IssueNumber": "2022101010226",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "31029"
+    },
+    {
+        "rowId": 589,
+        "IssueNumber": "2022101010225",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "47783"
+    },
+    {
+        "rowId": 590,
+        "IssueNumber": "2022101010224",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "26111"
+    },
+    {
+        "rowId": 591,
+        "IssueNumber": "2022101010223",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "56671"
+    },
+    {
+        "rowId": 592,
+        "IssueNumber": "2022101010222",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "14036"
+    },
+    {
+        "rowId": 593,
+        "IssueNumber": "2022101010221",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "32165"
+    },
+    {
+        "rowId": 594,
+        "IssueNumber": "2022101010220",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "42844"
+    },
+    {
+        "rowId": 595,
+        "IssueNumber": "2022101010219",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "16083"
+    },
+    {
+        "rowId": 596,
+        "IssueNumber": "2022101010218",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "85451"
+    },
+    {
+        "rowId": 597,
+        "IssueNumber": "2022101010217",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "33415"
+    },
+    {
+        "rowId": 598,
+        "IssueNumber": "2022101010216",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "52562"
+    },
+    {
+        "rowId": 599,
+        "IssueNumber": "2022101010215",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "30010"
+    },
+    {
+        "rowId": 600,
+        "IssueNumber": "2022101010214",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "06144"
+    },
+    {
+        "rowId": 601,
+        "IssueNumber": "2022101010213",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "86657"
+    },
+    {
+        "rowId": 602,
+        "IssueNumber": "2022101010212",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "31681"
+    },
+    {
+        "rowId": 603,
+        "IssueNumber": "2022101010211",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "26747"
+    },
+    {
+        "rowId": 604,
+        "IssueNumber": "2022101010210",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "24044"
+    },
+    {
+        "rowId": 605,
+        "IssueNumber": "2022101010209",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "37124"
+    },
+    {
+        "rowId": 606,
+        "IssueNumber": "2022101010208",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "65517"
+    },
+    {
+        "rowId": 607,
+        "IssueNumber": "2022101010207",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "15349"
+    },
+    {
+        "rowId": 608,
+        "IssueNumber": "2022101010206",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "20268"
+    },
+    {
+        "rowId": 609,
+        "IssueNumber": "2022101010205",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "78104"
+    },
+    {
+        "rowId": 610,
+        "IssueNumber": "2022101010204",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "97973"
+    },
+    {
+        "rowId": 611,
+        "IssueNumber": "2022101010203",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "50288"
+    },
+    {
+        "rowId": 612,
+        "IssueNumber": "2022101010202",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "97799"
+    },
+    {
+        "rowId": 613,
+        "IssueNumber": "2022101010201",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "12230"
+    },
+    {
+        "rowId": 614,
+        "IssueNumber": "2022101010200",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "41095"
+    },
+    {
+        "rowId": 615,
+        "IssueNumber": "2022101010199",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "82168"
+    },
+    {
+        "rowId": 616,
+        "IssueNumber": "2022101010198",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "92594"
+    },
+    {
+        "rowId": 617,
+        "IssueNumber": "2022101010197",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "14628"
+    },
+    {
+        "rowId": 618,
+        "IssueNumber": "2022101010196",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "81964"
+    },
+    {
+        "rowId": 619,
+        "IssueNumber": "2022101010195",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "91838"
+    },
+    {
+        "rowId": 620,
+        "IssueNumber": "2022101010194",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "89917"
+    },
+    {
+        "rowId": 621,
+        "IssueNumber": "2022101010193",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "47902"
+    },
+    {
+        "rowId": 622,
+        "IssueNumber": "2022101010192",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "87182"
+    },
+    {
+        "rowId": 623,
+        "IssueNumber": "2022101010191",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "12990"
+    },
+    {
+        "rowId": 624,
+        "IssueNumber": "2022101010190",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "20644"
+    },
+    {
+        "rowId": 625,
+        "IssueNumber": "2022101010189",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "78118"
+    },
+    {
+        "rowId": 626,
+        "IssueNumber": "2022101010188",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "43916"
+    },
+    {
+        "rowId": 627,
+        "IssueNumber": "2022101010187",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "56093"
+    },
+    {
+        "rowId": 628,
+        "IssueNumber": "2022101010186",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "43721"
+    },
+    {
+        "rowId": 629,
+        "IssueNumber": "2022101010185",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "76581"
+    },
+    {
+        "rowId": 630,
+        "IssueNumber": "2022101010184",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "99465"
+    },
+    {
+        "rowId": 631,
+        "IssueNumber": "2022101010183",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "48806"
+    },
+    {
+        "rowId": 632,
+        "IssueNumber": "2022101010182",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "62582"
+    },
+    {
+        "rowId": 633,
+        "IssueNumber": "2022101010181",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "35276"
+    },
+    {
+        "rowId": 634,
+        "IssueNumber": "2022101010180",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "27562"
+    },
+    {
+        "rowId": 635,
+        "IssueNumber": "2022101010179",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "66876"
+    },
+    {
+        "rowId": 636,
+        "IssueNumber": "2022101010178",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "12095"
+    },
+    {
+        "rowId": 637,
+        "IssueNumber": "2022101010177",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "34920"
+    },
+    {
+        "rowId": 638,
+        "IssueNumber": "2022101010176",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "27120"
+    },
+    {
+        "rowId": 639,
+        "IssueNumber": "2022101010175",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "15991"
+    },
+    {
+        "rowId": 640,
+        "IssueNumber": "2022101010174",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "29754"
+    },
+    {
+        "rowId": 641,
+        "IssueNumber": "2022101010173",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "02722"
+    },
+    {
+        "rowId": 642,
+        "IssueNumber": "2022101010172",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "33448"
+    },
+    {
+        "rowId": 643,
+        "IssueNumber": "2022101010171",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "84396"
+    },
+    {
+        "rowId": 644,
+        "IssueNumber": "2022101010170",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "44788"
+    },
+    {
+        "rowId": 645,
+        "IssueNumber": "2022101010169",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "64190"
+    },
+    {
+        "rowId": 646,
+        "IssueNumber": "2022101010168",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "05268"
+    },
+    {
+        "rowId": 647,
+        "IssueNumber": "2022101010167",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "06940"
+    },
+    {
+        "rowId": 648,
+        "IssueNumber": "2022101010166",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "34072"
+    },
+    {
+        "rowId": 649,
+        "IssueNumber": "2022101010165",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "81181"
+    },
+    {
+        "rowId": 650,
+        "IssueNumber": "2022101010164",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "95033"
+    },
+    {
+        "rowId": 651,
+        "IssueNumber": "2022101010163",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "04302"
+    },
+    {
+        "rowId": 652,
+        "IssueNumber": "2022101010162",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "66065"
+    },
+    {
+        "rowId": 653,
+        "IssueNumber": "2022101010161",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "81992"
+    },
+    {
+        "rowId": 654,
+        "IssueNumber": "2022101010160",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "75532"
+    },
+    {
+        "rowId": 655,
+        "IssueNumber": "2022101010159",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "36724"
+    },
+    {
+        "rowId": 656,
+        "IssueNumber": "2022101010158",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "96034"
+    },
+    {
+        "rowId": 657,
+        "IssueNumber": "2022101010157",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "59628"
+    },
+    {
+        "rowId": 658,
+        "IssueNumber": "2022101010156",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "63956"
+    },
+    {
+        "rowId": 659,
+        "IssueNumber": "2022101010155",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "21139"
+    },
+    {
+        "rowId": 660,
+        "IssueNumber": "2022101010154",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "97335"
+    },
+    {
+        "rowId": 661,
+        "IssueNumber": "2022101010153",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "77803"
+    },
+    {
+        "rowId": 662,
+        "IssueNumber": "2022101010152",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "59756"
+    },
+    {
+        "rowId": 663,
+        "IssueNumber": "2022101010151",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "12624"
+    },
+    {
+        "rowId": 664,
+        "IssueNumber": "2022101010150",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "36598"
+    },
+    {
+        "rowId": 665,
+        "IssueNumber": "2022101010149",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "60547"
+    },
+    {
+        "rowId": 666,
+        "IssueNumber": "2022101010148",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "06241"
+    },
+    {
+        "rowId": 667,
+        "IssueNumber": "2022101010147",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "98165"
+    },
+    {
+        "rowId": 668,
+        "IssueNumber": "2022101010146",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "41726"
+    },
+    {
+        "rowId": 669,
+        "IssueNumber": "2022101010145",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "91808"
+    },
+    {
+        "rowId": 670,
+        "IssueNumber": "2022101010144",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "41358"
+    },
+    {
+        "rowId": 671,
+        "IssueNumber": "2022101010143",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "27119"
+    },
+    {
+        "rowId": 672,
+        "IssueNumber": "2022101010142",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "58378"
+    },
+    {
+        "rowId": 673,
+        "IssueNumber": "2022101010141",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "85550"
+    },
+    {
+        "rowId": 674,
+        "IssueNumber": "2022101010140",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "41362"
+    },
+    {
+        "rowId": 675,
+        "IssueNumber": "2022101010139",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "88063"
+    },
+    {
+        "rowId": 676,
+        "IssueNumber": "2022101010138",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "77444"
+    },
+    {
+        "rowId": 677,
+        "IssueNumber": "2022101010137",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "34115"
+    },
+    {
+        "rowId": 678,
+        "IssueNumber": "2022101010136",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "90867"
+    },
+    {
+        "rowId": 679,
+        "IssueNumber": "2022101010135",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "86413"
+    },
+    {
+        "rowId": 680,
+        "IssueNumber": "2022101010134",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "89173"
+    },
+    {
+        "rowId": 681,
+        "IssueNumber": "2022101010133",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "21813"
+    },
+    {
+        "rowId": 682,
+        "IssueNumber": "2022101010132",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "33835"
+    },
+    {
+        "rowId": 683,
+        "IssueNumber": "2022101010131",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "55139"
+    },
+    {
+        "rowId": 684,
+        "IssueNumber": "2022101010130",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "86564"
+    },
+    {
+        "rowId": 685,
+        "IssueNumber": "2022101010129",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "51390"
+    },
+    {
+        "rowId": 686,
+        "IssueNumber": "2022101010128",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "61050"
+    },
+    {
+        "rowId": 687,
+        "IssueNumber": "2022101010127",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "26425"
+    },
+    {
+        "rowId": 688,
+        "IssueNumber": "2022101010126",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "76532"
+    },
+    {
+        "rowId": 689,
+        "IssueNumber": "2022101010125",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "04088"
+    },
+    {
+        "rowId": 690,
+        "IssueNumber": "2022101010124",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "48522"
+    },
+    {
+        "rowId": 691,
+        "IssueNumber": "2022101010123",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "42404"
+    },
+    {
+        "rowId": 692,
+        "IssueNumber": "2022101010122",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "09290"
+    },
+    {
+        "rowId": 693,
+        "IssueNumber": "2022101010121",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "56573"
+    },
+    {
+        "rowId": 694,
+        "IssueNumber": "2022101010120",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "79556"
+    },
+    {
+        "rowId": 695,
+        "IssueNumber": "2022101010119",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "40255"
+    },
+    {
+        "rowId": 696,
+        "IssueNumber": "2022101010118",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "04942"
+    },
+    {
+        "rowId": 697,
+        "IssueNumber": "2022101010117",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "81233"
+    },
+    {
+        "rowId": 698,
+        "IssueNumber": "2022101010116",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "07224"
+    },
+    {
+        "rowId": 699,
+        "IssueNumber": "2022101010115",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "99653"
+    },
+    {
+        "rowId": 700,
+        "IssueNumber": "2022101010114",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "86119"
+    },
+    {
+        "rowId": 701,
+        "IssueNumber": "2022101010113",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "65456"
+    },
+    {
+        "rowId": 702,
+        "IssueNumber": "2022101010112",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "49416"
+    },
+    {
+        "rowId": 703,
+        "IssueNumber": "2022101010111",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "34900"
+    },
+    {
+        "rowId": 704,
+        "IssueNumber": "2022101010110",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "44775"
+    },
+    {
+        "rowId": 705,
+        "IssueNumber": "2022101010109",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "13968"
+    },
+    {
+        "rowId": 706,
+        "IssueNumber": "2022101010108",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "07896"
+    },
+    {
+        "rowId": 707,
+        "IssueNumber": "2022101010107",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "17825"
+    },
+    {
+        "rowId": 708,
+        "IssueNumber": "2022101010106",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "25928"
+    },
+    {
+        "rowId": 709,
+        "IssueNumber": "2022101010105",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "43635"
+    },
+    {
+        "rowId": 710,
+        "IssueNumber": "2022101010104",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "38677"
+    },
+    {
+        "rowId": 711,
+        "IssueNumber": "2022101010103",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "99990"
+    },
+    {
+        "rowId": 712,
+        "IssueNumber": "2022101010102",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "19164"
+    },
+    {
+        "rowId": 713,
+        "IssueNumber": "2022101010101",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "52473"
+    },
+    {
+        "rowId": 714,
+        "IssueNumber": "2022101010100",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "54131"
+    },
+    {
+        "rowId": 715,
+        "IssueNumber": "2022101010099",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "74954"
+    },
+    {
+        "rowId": 716,
+        "IssueNumber": "2022101010098",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "19429"
+    },
+    {
+        "rowId": 717,
+        "IssueNumber": "2022101010097",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "04620"
+    },
+    {
+        "rowId": 718,
+        "IssueNumber": "2022101010096",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "01027"
+    },
+    {
+        "rowId": 719,
+        "IssueNumber": "2022101010095",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "88152"
+    },
+    {
+        "rowId": 720,
+        "IssueNumber": "2022101010094",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "21159"
+    },
+    {
+        "rowId": 721,
+        "IssueNumber": "2022101010093",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "30753"
+    },
+    {
+        "rowId": 722,
+        "IssueNumber": "2022101010092",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "20341"
+    },
+    {
+        "rowId": 723,
+        "IssueNumber": "2022101010091",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "99768"
+    },
+    {
+        "rowId": 724,
+        "IssueNumber": "2022101010090",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "83368"
+    },
+    {
+        "rowId": 725,
+        "IssueNumber": "2022101010089",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "72180"
+    },
+    {
+        "rowId": 726,
+        "IssueNumber": "2022101010088",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "60618"
+    },
+    {
+        "rowId": 727,
+        "IssueNumber": "2022101010087",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "71088"
+    },
+    {
+        "rowId": 728,
+        "IssueNumber": "2022101010086",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "88421"
+    },
+    {
+        "rowId": 729,
+        "IssueNumber": "2022101010085",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "75040"
+    },
+    {
+        "rowId": 730,
+        "IssueNumber": "2022101010084",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "48281"
+    },
+    {
+        "rowId": 731,
+        "IssueNumber": "2022101010083",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "80571"
+    },
+    {
+        "rowId": 732,
+        "IssueNumber": "2022101010082",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "43348"
+    },
+    {
+        "rowId": 733,
+        "IssueNumber": "2022101010081",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "53669"
+    },
+    {
+        "rowId": 734,
+        "IssueNumber": "2022101010080",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "75785"
+    },
+    {
+        "rowId": 735,
+        "IssueNumber": "2022101010079",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "32246"
+    },
+    {
+        "rowId": 736,
+        "IssueNumber": "2022101010078",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "53831"
+    },
+    {
+        "rowId": 737,
+        "IssueNumber": "2022101010077",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "67468"
+    },
+    {
+        "rowId": 738,
+        "IssueNumber": "2022101010076",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "37320"
+    },
+    {
+        "rowId": 739,
+        "IssueNumber": "2022101010075",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "27482"
+    },
+    {
+        "rowId": 740,
+        "IssueNumber": "2022101010074",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "78026"
+    },
+    {
+        "rowId": 741,
+        "IssueNumber": "2022101010073",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "40857"
+    },
+    {
+        "rowId": 742,
+        "IssueNumber": "2022101010072",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "24911"
+    },
+    {
+        "rowId": 743,
+        "IssueNumber": "2022101010071",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "53752"
+    },
+    {
+        "rowId": 744,
+        "IssueNumber": "2022101010070",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "95533"
+    },
+    {
+        "rowId": 745,
+        "IssueNumber": "2022101010069",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "28208"
+    },
+    {
+        "rowId": 746,
+        "IssueNumber": "2022101010068",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "34590"
+    },
+    {
+        "rowId": 747,
+        "IssueNumber": "2022101010067",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "05965"
+    },
+    {
+        "rowId": 748,
+        "IssueNumber": "2022101010066",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "42096"
+    },
+    {
+        "rowId": 749,
+        "IssueNumber": "2022101010065",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "21807"
+    },
+    {
+        "rowId": 750,
+        "IssueNumber": "2022101010064",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "03485"
+    },
+    {
+        "rowId": 751,
+        "IssueNumber": "2022101010063",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "32439"
+    },
+    {
+        "rowId": 752,
+        "IssueNumber": "2022101010062",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "79449"
+    },
+    {
+        "rowId": 753,
+        "IssueNumber": "2022101010061",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "14313"
+    },
+    {
+        "rowId": 754,
+        "IssueNumber": "2022101010060",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "17002"
+    },
+    {
+        "rowId": 755,
+        "IssueNumber": "2022101010059",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "55966"
+    },
+    {
+        "rowId": 756,
+        "IssueNumber": "2022101010058",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "10494"
+    },
+    {
+        "rowId": 757,
+        "IssueNumber": "2022101010057",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "98071"
+    },
+    {
+        "rowId": 758,
+        "IssueNumber": "2022101010056",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "52293"
+    },
+    {
+        "rowId": 759,
+        "IssueNumber": "2022101010055",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "49819"
+    },
+    {
+        "rowId": 760,
+        "IssueNumber": "2022101010054",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "86384"
+    },
+    {
+        "rowId": 761,
+        "IssueNumber": "2022101010053",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "79247"
+    },
+    {
+        "rowId": 762,
+        "IssueNumber": "2022101010052",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "21658"
+    },
+    {
+        "rowId": 763,
+        "IssueNumber": "2022101010051",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "94785"
+    },
+    {
+        "rowId": 764,
+        "IssueNumber": "2022101010050",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "83967"
+    },
+    {
+        "rowId": 765,
+        "IssueNumber": "2022101010049",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "99914"
+    },
+    {
+        "rowId": 766,
+        "IssueNumber": "2022101010048",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "18011"
+    },
+    {
+        "rowId": 767,
+        "IssueNumber": "2022101010047",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "28405"
+    },
+    {
+        "rowId": 768,
+        "IssueNumber": "2022101010046",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "59705"
+    },
+    {
+        "rowId": 769,
+        "IssueNumber": "2022101010045",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "64039"
+    },
+    {
+        "rowId": 770,
+        "IssueNumber": "2022101010044",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "56109"
+    },
+    {
+        "rowId": 771,
+        "IssueNumber": "2022101010043",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "21468"
+    },
+    {
+        "rowId": 772,
+        "IssueNumber": "2022101010042",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "35520"
+    },
+    {
+        "rowId": 773,
+        "IssueNumber": "2022101010041",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "63858"
+    },
+    {
+        "rowId": 774,
+        "IssueNumber": "2022101010040",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "26493"
+    },
+    {
+        "rowId": 775,
+        "IssueNumber": "2022101010039",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "96366"
+    },
+    {
+        "rowId": 776,
+        "IssueNumber": "2022101010038",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "01100"
+    },
+    {
+        "rowId": 777,
+        "IssueNumber": "2022101010037",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "82950"
+    },
+    {
+        "rowId": 778,
+        "IssueNumber": "2022101010036",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "66740"
+    },
+    {
+        "rowId": 779,
+        "IssueNumber": "2022101010035",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "87116"
+    },
+    {
+        "rowId": 780,
+        "IssueNumber": "2022101010034",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "84901"
+    },
+    {
+        "rowId": 781,
+        "IssueNumber": "2022101010033",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "50152"
+    },
+    {
+        "rowId": 782,
+        "IssueNumber": "2022101010032",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "49358"
+    },
+    {
+        "rowId": 783,
+        "IssueNumber": "2022101010031",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "40790"
+    },
+    {
+        "rowId": 784,
+        "IssueNumber": "2022101010030",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "09754"
+    },
+    {
+        "rowId": 785,
+        "IssueNumber": "2022101010029",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "36610"
+    },
+    {
+        "rowId": 786,
+        "IssueNumber": "2022101010028",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "61383"
+    },
+    {
+        "rowId": 787,
+        "IssueNumber": "2022101010027",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "30604"
+    },
+    {
+        "rowId": 788,
+        "IssueNumber": "2022101010026",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "13655"
+    },
+    {
+        "rowId": 789,
+        "IssueNumber": "2022101010025",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "58536"
+    },
+    {
+        "rowId": 790,
+        "IssueNumber": "2022101010024",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "77232"
+    },
+    {
+        "rowId": 791,
+        "IssueNumber": "2022101010023",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "21310"
+    },
+    {
+        "rowId": 792,
+        "IssueNumber": "2022101010022",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "18357"
+    },
+    {
+        "rowId": 793,
+        "IssueNumber": "2022101010021",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "35135"
+    },
+    {
+        "rowId": 794,
+        "IssueNumber": "2022101010020",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "10703"
+    },
+    {
+        "rowId": 795,
+        "IssueNumber": "2022101010019",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "09052"
+    },
+    {
+        "rowId": 796,
+        "IssueNumber": "2022101010018",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "58139"
+    },
+    {
+        "rowId": 797,
+        "IssueNumber": "2022101010017",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "60211"
+    },
+    {
+        "rowId": 798,
+        "IssueNumber": "2022101010016",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "93655"
+    },
+    {
+        "rowId": 799,
+        "IssueNumber": "2022101010015",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "01315"
+    },
+    {
+        "rowId": 800,
+        "IssueNumber": "2022101010014",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "91907"
+    },
+    {
+        "rowId": 801,
+        "IssueNumber": "2022101010013",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "73188"
+    },
+    {
+        "rowId": 802,
+        "IssueNumber": "2022101010012",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "18849"
+    },
+    {
+        "rowId": 803,
+        "IssueNumber": "2022101010011",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "12199"
+    },
+    {
+        "rowId": 804,
+        "IssueNumber": "2022101010010",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "95060"
+    },
+    {
+        "rowId": 805,
+        "IssueNumber": "2022101010009",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "56969"
+    },
+    {
+        "rowId": 806,
+        "IssueNumber": "2022101010008",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "28723"
+    },
+    {
+        "rowId": 807,
+        "IssueNumber": "2022101010007",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "30281"
+    },
+    {
+        "rowId": 808,
+        "IssueNumber": "2022101010006",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "14223"
+    },
+    {
+        "rowId": 809,
+        "IssueNumber": "2022101010005",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "72079"
+    },
+    {
+        "rowId": 810,
+        "IssueNumber": "2022101010004",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "84037"
+    },
+    {
+        "rowId": 811,
+        "IssueNumber": "2022101010003",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "03552"
+    },
+    {
+        "rowId": 812,
+        "IssueNumber": "2022101010002",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "07577"
+    },
+    {
+        "rowId": 813,
+        "IssueNumber": "2022101010001",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "97299"
+    },
+    {
+        "rowId": 814,
+        "IssueNumber": "2022100911440",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "05921"
+    },
+    {
+        "rowId": 815,
+        "IssueNumber": "2022100911439",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "70523"
+    },
+    {
+        "rowId": 816,
+        "IssueNumber": "2022100911438",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "10381"
+    },
+    {
+        "rowId": 817,
+        "IssueNumber": "2022100911437",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "43840"
+    },
+    {
+        "rowId": 818,
+        "IssueNumber": "2022100911436",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "70909"
+    },
+    {
+        "rowId": 819,
+        "IssueNumber": "2022100911435",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "14355"
+    },
+    {
+        "rowId": 820,
+        "IssueNumber": "2022100911434",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "58527"
+    },
+    {
+        "rowId": 821,
+        "IssueNumber": "2022100911433",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "49313"
+    },
+    {
+        "rowId": 822,
+        "IssueNumber": "2022100911432",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "12844"
+    },
+    {
+        "rowId": 823,
+        "IssueNumber": "2022100911431",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "94491"
+    },
+    {
+        "rowId": 824,
+        "IssueNumber": "2022100911430",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "98587"
+    },
+    {
+        "rowId": 825,
+        "IssueNumber": "2022100911429",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "58931"
+    },
+    {
+        "rowId": 826,
+        "IssueNumber": "2022100911428",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "91570"
+    },
+    {
+        "rowId": 827,
+        "IssueNumber": "2022100911427",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "28981"
+    },
+    {
+        "rowId": 828,
+        "IssueNumber": "2022100911426",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "61664"
+    },
+    {
+        "rowId": 829,
+        "IssueNumber": "2022100911425",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "90062"
+    },
+    {
+        "rowId": 830,
+        "IssueNumber": "2022100911424",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "83968"
+    },
+    {
+        "rowId": 831,
+        "IssueNumber": "2022100911423",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "28068"
+    },
+    {
+        "rowId": 832,
+        "IssueNumber": "2022100911422",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "22963"
+    },
+    {
+        "rowId": 833,
+        "IssueNumber": "2022100911421",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "68610"
+    },
+    {
+        "rowId": 834,
+        "IssueNumber": "2022100911420",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "25348"
+    },
+    {
+        "rowId": 835,
+        "IssueNumber": "2022100911419",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "35967"
+    },
+    {
+        "rowId": 836,
+        "IssueNumber": "2022100911418",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "63465"
+    },
+    {
+        "rowId": 837,
+        "IssueNumber": "2022100911417",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "56004"
+    },
+    {
+        "rowId": 838,
+        "IssueNumber": "2022100911416",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "68374"
+    },
+    {
+        "rowId": 839,
+        "IssueNumber": "2022100911415",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "47726"
+    },
+    {
+        "rowId": 840,
+        "IssueNumber": "2022100911414",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "43260"
+    },
+    {
+        "rowId": 841,
+        "IssueNumber": "2022100911413",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "27120"
+    },
+    {
+        "rowId": 842,
+        "IssueNumber": "2022100911412",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "29746"
+    },
+    {
+        "rowId": 843,
+        "IssueNumber": "2022100911411",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "54186"
+    },
+    {
+        "rowId": 844,
+        "IssueNumber": "2022100911410",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "95707"
+    },
+    {
+        "rowId": 845,
+        "IssueNumber": "2022100911409",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "80659"
+    },
+    {
+        "rowId": 846,
+        "IssueNumber": "2022100911408",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "65895"
+    },
+    {
+        "rowId": 847,
+        "IssueNumber": "2022100911407",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "71179"
+    },
+    {
+        "rowId": 848,
+        "IssueNumber": "2022100911406",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "79307"
+    },
+    {
+        "rowId": 849,
+        "IssueNumber": "2022100911405",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "51794"
+    },
+    {
+        "rowId": 850,
+        "IssueNumber": "2022100911404",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "80749"
+    },
+    {
+        "rowId": 851,
+        "IssueNumber": "2022100911403",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "19018"
+    },
+    {
+        "rowId": 852,
+        "IssueNumber": "2022100911402",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "29809"
+    },
+    {
+        "rowId": 853,
+        "IssueNumber": "2022100911401",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "21905"
+    },
+    {
+        "rowId": 854,
+        "IssueNumber": "2022100911400",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "67016"
+    },
+    {
+        "rowId": 855,
+        "IssueNumber": "2022100911399",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "19835"
+    },
+    {
+        "rowId": 856,
+        "IssueNumber": "2022100911398",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "65645"
+    },
+    {
+        "rowId": 857,
+        "IssueNumber": "2022100911397",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "37083"
+    },
+    {
+        "rowId": 858,
+        "IssueNumber": "2022100911396",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "33429"
+    },
+    {
+        "rowId": 859,
+        "IssueNumber": "2022100911395",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "64570"
+    },
+    {
+        "rowId": 860,
+        "IssueNumber": "2022100911394",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "26132"
+    },
+    {
+        "rowId": 861,
+        "IssueNumber": "2022100911393",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "72732"
+    },
+    {
+        "rowId": 862,
+        "IssueNumber": "2022100911392",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "07164"
+    },
+    {
+        "rowId": 863,
+        "IssueNumber": "2022100911391",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "78312"
+    },
+    {
+        "rowId": 864,
+        "IssueNumber": "2022100911390",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "02683"
+    },
+    {
+        "rowId": 865,
+        "IssueNumber": "2022100911389",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "81064"
+    },
+    {
+        "rowId": 866,
+        "IssueNumber": "2022100911388",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "15963"
+    },
+    {
+        "rowId": 867,
+        "IssueNumber": "2022100911387",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "68141"
+    },
+    {
+        "rowId": 868,
+        "IssueNumber": "2022100911386",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "07471"
+    },
+    {
+        "rowId": 869,
+        "IssueNumber": "2022100911385",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "03692"
+    },
+    {
+        "rowId": 870,
+        "IssueNumber": "2022100911384",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "22123"
+    },
+    {
+        "rowId": 871,
+        "IssueNumber": "2022100911383",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "05855"
+    },
+    {
+        "rowId": 872,
+        "IssueNumber": "2022100911382",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "31379"
+    },
+    {
+        "rowId": 873,
+        "IssueNumber": "2022100911381",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "54488"
+    },
+    {
+        "rowId": 874,
+        "IssueNumber": "2022100911380",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "82520"
+    },
+    {
+        "rowId": 875,
+        "IssueNumber": "2022100911379",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "06650"
+    },
+    {
+        "rowId": 876,
+        "IssueNumber": "2022100911378",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "84607"
+    },
+    {
+        "rowId": 877,
+        "IssueNumber": "2022100911377",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "19269"
+    },
+    {
+        "rowId": 878,
+        "IssueNumber": "2022100911376",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "81366"
+    },
+    {
+        "rowId": 879,
+        "IssueNumber": "2022100911375",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "50526"
+    },
+    {
+        "rowId": 880,
+        "IssueNumber": "2022100911374",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "75782"
+    },
+    {
+        "rowId": 881,
+        "IssueNumber": "2022100911373",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "00908"
+    },
+    {
+        "rowId": 882,
+        "IssueNumber": "2022100911372",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "44739"
+    },
+    {
+        "rowId": 883,
+        "IssueNumber": "2022100911371",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "88978"
+    },
+    {
+        "rowId": 884,
+        "IssueNumber": "2022100911370",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "14972"
+    },
+    {
+        "rowId": 885,
+        "IssueNumber": "2022100911369",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "90809"
+    },
+    {
+        "rowId": 886,
+        "IssueNumber": "2022100911368",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "34793"
+    },
+    {
+        "rowId": 887,
+        "IssueNumber": "2022100911367",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "00654"
+    },
+    {
+        "rowId": 888,
+        "IssueNumber": "2022100911366",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "34416"
+    },
+    {
+        "rowId": 889,
+        "IssueNumber": "2022100911365",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "43259"
+    },
+    {
+        "rowId": 890,
+        "IssueNumber": "2022100911364",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "28594"
+    },
+    {
+        "rowId": 891,
+        "IssueNumber": "2022100911363",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "04911"
+    },
+    {
+        "rowId": 892,
+        "IssueNumber": "2022100911362",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "18658"
+    },
+    {
+        "rowId": 893,
+        "IssueNumber": "2022100911361",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "27589"
+    },
+    {
+        "rowId": 894,
+        "IssueNumber": "2022100911360",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "16055"
+    },
+    {
+        "rowId": 895,
+        "IssueNumber": "2022100911359",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "11976"
+    },
+    {
+        "rowId": 896,
+        "IssueNumber": "2022100911358",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "60841"
+    },
+    {
+        "rowId": 897,
+        "IssueNumber": "2022100911357",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "94865"
+    },
+    {
+        "rowId": 898,
+        "IssueNumber": "2022100911356",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "01550"
+    },
+    {
+        "rowId": 899,
+        "IssueNumber": "2022100911355",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "01063"
+    },
+    {
+        "rowId": 900,
+        "IssueNumber": "2022100911354",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "26171"
+    },
+    {
+        "rowId": 901,
+        "IssueNumber": "2022100911353",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "23326"
+    },
+    {
+        "rowId": 902,
+        "IssueNumber": "2022100911352",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "46986"
+    },
+    {
+        "rowId": 903,
+        "IssueNumber": "2022100911351",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "23662"
+    },
+    {
+        "rowId": 904,
+        "IssueNumber": "2022100911350",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "36124"
+    },
+    {
+        "rowId": 905,
+        "IssueNumber": "2022100911349",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "18385"
+    },
+    {
+        "rowId": 906,
+        "IssueNumber": "2022100911348",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "48913"
+    },
+    {
+        "rowId": 907,
+        "IssueNumber": "2022100911347",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "11915"
+    },
+    {
+        "rowId": 908,
+        "IssueNumber": "2022100911346",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "69204"
+    },
+    {
+        "rowId": 909,
+        "IssueNumber": "2022100911345",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "43049"
+    },
+    {
+        "rowId": 910,
+        "IssueNumber": "2022100911344",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "28218"
+    },
+    {
+        "rowId": 911,
+        "IssueNumber": "2022100911343",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "47633"
+    },
+    {
+        "rowId": 912,
+        "IssueNumber": "2022100911342",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "59179"
+    },
+    {
+        "rowId": 913,
+        "IssueNumber": "2022100911341",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "91046"
+    },
+    {
+        "rowId": 914,
+        "IssueNumber": "2022100911340",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "15978"
+    },
+    {
+        "rowId": 915,
+        "IssueNumber": "2022100911339",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "85712"
+    },
+    {
+        "rowId": 916,
+        "IssueNumber": "2022100911338",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "52026"
+    },
+    {
+        "rowId": 917,
+        "IssueNumber": "2022100911337",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "99620"
+    },
+    {
+        "rowId": 918,
+        "IssueNumber": "2022100911336",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "54105"
+    },
+    {
+        "rowId": 919,
+        "IssueNumber": "2022100911335",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "49394"
+    },
+    {
+        "rowId": 920,
+        "IssueNumber": "2022100911334",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "31564"
+    },
+    {
+        "rowId": 921,
+        "IssueNumber": "2022100911333",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "81898"
+    },
+    {
+        "rowId": 922,
+        "IssueNumber": "2022100911332",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "44328"
+    },
+    {
+        "rowId": 923,
+        "IssueNumber": "2022100911331",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "29151"
+    },
+    {
+        "rowId": 924,
+        "IssueNumber": "2022100911330",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "68930"
+    },
+    {
+        "rowId": 925,
+        "IssueNumber": "2022100911329",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "73112"
+    },
+    {
+        "rowId": 926,
+        "IssueNumber": "2022100911328",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "07667"
+    },
+    {
+        "rowId": 927,
+        "IssueNumber": "2022100911327",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "68603"
+    },
+    {
+        "rowId": 928,
+        "IssueNumber": "2022100911326",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "67859"
+    },
+    {
+        "rowId": 929,
+        "IssueNumber": "2022100911325",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "52726"
+    },
+    {
+        "rowId": 930,
+        "IssueNumber": "2022100911324",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "41108"
+    },
+    {
+        "rowId": 931,
+        "IssueNumber": "2022100911323",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "75577"
+    },
+    {
+        "rowId": 932,
+        "IssueNumber": "2022100911322",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "31969"
+    },
+    {
+        "rowId": 933,
+        "IssueNumber": "2022100911321",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "28963"
+    },
+    {
+        "rowId": 934,
+        "IssueNumber": "2022100911320",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "41803"
+    },
+    {
+        "rowId": 935,
+        "IssueNumber": "2022100911319",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "85712"
+    },
+    {
+        "rowId": 936,
+        "IssueNumber": "2022100911318",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "49142"
+    },
+    {
+        "rowId": 937,
+        "IssueNumber": "2022100911317",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "63790"
+    },
+    {
+        "rowId": 938,
+        "IssueNumber": "2022100911316",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "63300"
+    },
+    {
+        "rowId": 939,
+        "IssueNumber": "2022100911315",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "42468"
+    },
+    {
+        "rowId": 940,
+        "IssueNumber": "2022100911314",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "12971"
+    },
+    {
+        "rowId": 941,
+        "IssueNumber": "2022100911313",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "61459"
+    },
+    {
+        "rowId": 942,
+        "IssueNumber": "2022100911312",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "35026"
+    },
+    {
+        "rowId": 943,
+        "IssueNumber": "2022100911311",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "56036"
+    },
+    {
+        "rowId": 944,
+        "IssueNumber": "2022100911310",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "59678"
+    },
+    {
+        "rowId": 945,
+        "IssueNumber": "2022100911309",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "02784"
+    },
+    {
+        "rowId": 946,
+        "IssueNumber": "2022100911308",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "20286"
+    },
+    {
+        "rowId": 947,
+        "IssueNumber": "2022100911307",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "14634"
+    },
+    {
+        "rowId": 948,
+        "IssueNumber": "2022100911306",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "42135"
+    },
+    {
+        "rowId": 949,
+        "IssueNumber": "2022100911305",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "28393"
+    },
+    {
+        "rowId": 950,
+        "IssueNumber": "2022100911304",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "66438"
+    },
+    {
+        "rowId": 951,
+        "IssueNumber": "2022100911303",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "85939"
+    },
+    {
+        "rowId": 952,
+        "IssueNumber": "2022100911302",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "19242"
+    },
+    {
+        "rowId": 953,
+        "IssueNumber": "2022100911301",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "33799"
+    },
+    {
+        "rowId": 954,
+        "IssueNumber": "2022100911300",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "25358"
+    },
+    {
+        "rowId": 955,
+        "IssueNumber": "2022100911299",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "61122"
+    },
+    {
+        "rowId": 956,
+        "IssueNumber": "2022100911298",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "38073"
+    },
+    {
+        "rowId": 957,
+        "IssueNumber": "2022100911297",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "35545"
+    },
+    {
+        "rowId": 958,
+        "IssueNumber": "2022100911296",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "19456"
+    },
+    {
+        "rowId": 959,
+        "IssueNumber": "2022100911295",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "65774"
+    },
+    {
+        "rowId": 960,
+        "IssueNumber": "2022100911294",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "65356"
+    },
+    {
+        "rowId": 961,
+        "IssueNumber": "2022100911293",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "32997"
+    },
+    {
+        "rowId": 962,
+        "IssueNumber": "2022100911292",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "65914"
+    },
+    {
+        "rowId": 963,
+        "IssueNumber": "2022100911291",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "41455"
+    },
+    {
+        "rowId": 964,
+        "IssueNumber": "2022100911290",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "59000"
+    },
+    {
+        "rowId": 965,
+        "IssueNumber": "2022100911289",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "75865"
+    },
+    {
+        "rowId": 966,
+        "IssueNumber": "2022100911288",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "88168"
+    },
+    {
+        "rowId": 967,
+        "IssueNumber": "2022100911287",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "40289"
+    },
+    {
+        "rowId": 968,
+        "IssueNumber": "2022100911286",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "66637"
+    },
+    {
+        "rowId": 969,
+        "IssueNumber": "2022100911285",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "48624"
+    },
+    {
+        "rowId": 970,
+        "IssueNumber": "2022100911284",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "73666"
+    },
+    {
+        "rowId": 971,
+        "IssueNumber": "2022100911283",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "39314"
+    },
+    {
+        "rowId": 972,
+        "IssueNumber": "2022100911282",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "66011"
+    },
+    {
+        "rowId": 973,
+        "IssueNumber": "2022100911281",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "27292"
+    },
+    {
+        "rowId": 974,
+        "IssueNumber": "2022100911280",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "56440"
+    },
+    {
+        "rowId": 975,
+        "IssueNumber": "2022100911279",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "57771"
+    },
+    {
+        "rowId": 976,
+        "IssueNumber": "2022100911278",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "72761"
+    },
+    {
+        "rowId": 977,
+        "IssueNumber": "2022100911277",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "18704"
+    },
+    {
+        "rowId": 978,
+        "IssueNumber": "2022100911276",
+        "Number": "2",
+        "Colour": "red",
+        "Premium": "25452"
+    },
+    {
+        "rowId": 979,
+        "IssueNumber": "2022100911275",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "96080"
+    },
+    {
+        "rowId": 980,
+        "IssueNumber": "2022100911274",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "52675"
+    },
+    {
+        "rowId": 981,
+        "IssueNumber": "2022100911273",
+        "Number": "9",
+        "Colour": "green",
+        "Premium": "21329"
+    },
+    {
+        "rowId": 982,
+        "IssueNumber": "2022100911272",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "70506"
+    },
+    {
+        "rowId": 983,
+        "IssueNumber": "2022100911271",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "35331"
+    },
+    {
+        "rowId": 984,
+        "IssueNumber": "2022100911270",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "14536"
+    },
+    {
+        "rowId": 985,
+        "IssueNumber": "2022100911269",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "93967"
+    },
+    {
+        "rowId": 986,
+        "IssueNumber": "2022100911268",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "77454"
+    },
+    {
+        "rowId": 987,
+        "IssueNumber": "2022100911267",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "14646"
+    },
+    {
+        "rowId": 988,
+        "IssueNumber": "2022100911266",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "24081"
+    },
+    {
+        "rowId": 989,
+        "IssueNumber": "2022100911265",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "97815"
+    },
+    {
+        "rowId": 990,
+        "IssueNumber": "2022100911264",
+        "Number": "7",
+        "Colour": "green",
+        "Premium": "29317"
+    },
+    {
+        "rowId": 991,
+        "IssueNumber": "2022100911263",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "91594"
+    },
+    {
+        "rowId": 992,
+        "IssueNumber": "2022100911262",
+        "Number": "4",
+        "Colour": "red",
+        "Premium": "75044"
+    },
+    {
+        "rowId": 993,
+        "IssueNumber": "2022100911261",
+        "Number": "1",
+        "Colour": "green",
+        "Premium": "52511"
+    },
+    {
+        "rowId": 994,
+        "IssueNumber": "2022100911260",
+        "Number": "3",
+        "Colour": "green",
+        "Premium": "41033"
+    },
+    {
+        "rowId": 995,
+        "IssueNumber": "2022100911259",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "87538"
+    },
+    {
+        "rowId": 996,
+        "IssueNumber": "2022100911258",
+        "Number": "8",
+        "Colour": "red",
+        "Premium": "03068"
+    },
+    {
+        "rowId": 997,
+        "IssueNumber": "2022100911257",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "38180"
+    },
+    {
+        "rowId": 998,
+        "IssueNumber": "2022100911256",
+        "Number": "5",
+        "Colour": "green,violet",
+        "Premium": "99235"
+    },
+    {
+        "rowId": 999,
+        "IssueNumber": "2022100911255",
+        "Number": "6",
+        "Colour": "red",
+        "Premium": "80256"
+    },
+    {
+        "rowId": 1000,
+        "IssueNumber": "2022100911254",
+        "Number": "0",
+        "Colour": "red,violet",
+        "Premium": "22790"
+    }
+]

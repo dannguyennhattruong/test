@@ -1,4 +1,3 @@
-const exec = require('child_process').exec;
 
 exec('node telegram',
     function (error, stdout, stderr) {

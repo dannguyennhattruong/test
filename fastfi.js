@@ -115,6 +115,7 @@ const main = async (num) => {
     console.log(error.message);
     paid = false;
     await getToken();
+    await main(num);
   }
 };
 
@@ -124,7 +125,7 @@ const app = async () => {
   getBalance().then((r) => {
     if (r) {
       currentBalance = r;
-      // sendMsg(`>>> Số dư hiện tại : ${r} ~ ${convertUsdtoVND(r*23500)}`);
+      sendMsg(`>>> Số dư hiện tại : ${r} ~ ${convertUsdtoVND(r * 23500)}`);
     }
     interval = setInterval(() => {
       getBalance().then((b) => {
@@ -132,6 +133,9 @@ const app = async () => {
         console.log(`BalanceAfter : ${b}`);
         if (b < currentBalance) {
           heso *= 2;
+          if (heso > 32) {
+            heso = 1;
+          }
         } else {
           if (paid) {
             heso = 1;
@@ -140,15 +144,13 @@ const app = async () => {
         if (paid && b) {
           currentBalance = b;
         }
-        if (currentBalance >= 100) {
+
+        if (currentBalance >= 76) {
+          sendMsg(`Đạt target >> dừng lệnh`)
           clearInterval(interval);
         }
-        // if (currentBalance <= 110) {
-        //   sendMsg(`Dừng lỗ target là dưới 110$ >> dừng lệnh`)
-        //   clearInterval(interval);
-        // }
         sendMsg(`💎 FastFi`).then((_) => {
-          sendMsg(`🍀 Vốn : 31$ ~ ${convertUsdtoVND(31 * 23500)}`).then(
+          sendMsg(`🍀 Vốn : 61$ ~ ${convertUsdtoVND(61 * 23500)}`).then(
             (__) => {
               sendMsg(
                 `🔥 Số dư hiện tại ${currentBalance} ~ ${convertUsdtoVND(
@@ -156,8 +158,8 @@ const app = async () => {
                 )}`
               ).then((___) => {
                 sendMsg(
-                  `🚀 Biến động : ${currentBalance > 31 ? "+" : "-"} ${Number(
-                    (Math.abs(31 - currentBalance) / 31) * 100
+                  `🚀 Biến động : ${currentBalance > 61 ? "+" : "-"} ${Number(
+                    (Math.abs(61 - currentBalance) / 61) * 100
                   ).toFixed(2)} %`
                 ).then((____) => {
                   sendMsg(`<==============================>`);
@@ -193,8 +195,8 @@ const convertUsdtoVND = (number) =>
 
 //     `;
 
-//   var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
-//   var chat_id = -861626613;
+//   var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+//   var chat_id = -937363962;
 //   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}`; //&parse_mode=html
 
 //   try {
@@ -210,8 +212,8 @@ const convertUsdtoVND = (number) =>
 // };
 
 const sendMsg = async (msg) => {
-  var token = "6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM";
-  var chat_id = -1001932745783;
+  var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+  var chat_id = -937363962;
   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
   try {
@@ -223,15 +225,15 @@ const setupTelebotCommand = async () => {
   const { Telegraf } = require("telegraf");
   const exec = require("child_process").exec;
 
-  const bot = new Telegraf("6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM");
+  const bot = new Telegraf("6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs");
   bot.hears("hi", (ctx) => ctx.reply("Hey there"));
   bot.command("stop1", (ctx) => {
     clearInterval(interval);
     console.log("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     ctx.reply("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     const msg = "Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance;
-    var token = "6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM";
-    var chat_id = -1001932745783;
+    var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+    var chat_id = -937363962;
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
     axios.get(url).then((r) => {});
@@ -243,5 +245,8 @@ const setupTelebotCommand = async () => {
   });
   bot.launch();
 };
+
+app();
+main(predict());
 
 setupTelebotCommand();

@@ -1,12 +1,12 @@
 const axios = require("axios");
 const FormData = require("form-data");
-let heso = 4;
+let heso = 2;
 let currentBalance = 0;
 let currentOTP = 0;
 let betAmount = 0;
 let interval = 0;
 let flag = true;
-let changeType = 1;
+let changeType = 0;
 function generateOTP() {
   // Declare a digits variable
   // which stores all digits
@@ -54,10 +54,10 @@ const getGameIssuse = async () => {
 const getBalance = async () => {
   try {
     var formData = new FormData();
-    formData.append("uid", 638248);
+    formData.append("uid", 1005280);
     formData.append(
       "sign",
-      "21EE754BC66501934222C68FE0105806C3E71E04403B19DAB37E015C28BC2CD9"
+      "42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812"
     );
     formData.append("language", "vi");
     const result = await axios.post(
@@ -87,10 +87,10 @@ const main = async (issueNum, num) => {
   console.log(` Phiên ${iss} ===========X============`);
   try {
     const formData = new FormData();
-    formData.append("uid", 638248);
+    formData.append("uid", 1005280);
     formData.append(
       "sign",
-      "21EE754BC66501934222C68FE0105806C3E71E04403B19DAB37E015C28BC2CD9"
+      "42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812"
     );
     formData.append("amount", `1000`);
     formData.append("betcount", `${heso}`);
@@ -104,7 +104,6 @@ const main = async (issueNum, num) => {
       formData.append("typeid", 1);
     }
     console.log(` Số tiền đặt cược là ${1000 * heso} `);
-    sendMsg(` Số tiền đặt cược là ${1000 * heso} `);
     betAmount = 1000 * heso;
 
     const result = await axios.post(
@@ -131,7 +130,7 @@ const main = async (issueNum, num) => {
   }
 };
 main(issuenumberEntry, predict());
-let loseCount = 0;
+
 getBalance().then((r) => {
   currentBalance = r;
   interval = setInterval(() => {
@@ -150,10 +149,8 @@ getBalance().then((r) => {
         txt = "lose";
         heso *= 2;
         sendMsg(`LOSE`);
-        loseCount++;
       } else {
-        heso = 4;
-        loseCount = 0;
+        heso = 2;
         sendMsg(`WIN`);
         if (changeType === 0) {
           changeType = 1;
@@ -163,29 +160,15 @@ getBalance().then((r) => {
           sendMsg(`Chọn TRX 😎`);
         }
       }
-      if (loseCount > 5) {
-        loseCount = 0;
-        if (changeType === 0) {
-          changeType = 1;
-          sendMsg(`Chọn Wingo 🙂`);
-        } else {
-          changeType = 0;
-          sendMsg(`Chọn TRX 😎`);
-        }
-      }
-
-      if (currentBalance > 500000) {
-        process.exit(1)
-      }
       sendMsg(`💎 92Lot`).then((_) => {
-        sendMsg(`🍀 Vốn : ${convertUsdtoVND(200000)}`).then((__) => {
+        sendMsg(`🍀 Vốn : ${convertUsdtoVND(500000)}`).then((__) => {
           sendMsg(`🔥 Số dư hiện tại  ${convertUsdtoVND(currentBalance)}`).then(
             (___) => {
               sendMsg(
                 `🚀 Biến động : ${
-                  currentBalance > 200000 ? "+" : "-"
+                  currentBalance > 500000 ? "+" : "-"
                 } ${Number(
-                  (Math.abs(200000 - currentBalance) / 200000) * 100
+                  (Math.abs(500000 - currentBalance) / 500000) * 100
                 ).toFixed(2)} %`
               ).then((____) => {
                 sendMsg(`<==============================>`);
@@ -210,8 +193,8 @@ getBalance().then((r) => {
 });
 
 const sendMsg = async (msg) => {
-  var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
-  var chat_id = -861626613;
+  var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+  var chat_id = -937363962;
   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
   try {
@@ -268,7 +251,7 @@ const sendToTelegram = async (balance, phien, OTP) => {
                     Đã cược : ${betAmount} <br>
     `;
 
-  var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
+  var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
   var chat_id = -1001886912905;
   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}&parse_mode=html`; //&parse_mode=html
 
@@ -287,8 +270,8 @@ const sendToTelegram2 = async (balance, phien, txt) => {
 
     `;
 
-  var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
-  var chat_id = -861626613;
+  var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+  var chat_id = -937363962;
   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}`; //&parse_mode=html
 
   try {
@@ -307,15 +290,15 @@ const setupTelebotCommand = async () => {
   const { Telegraf } = require("telegraf");
   const exec = require("child_process").exec;
 
-  const bot = new Telegraf("5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M");
+  const bot = new Telegraf("6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs");
   bot.hears("hi", (ctx) => ctx.reply("Hey there"));
   bot.command("stop", (ctx) => {
     clearInterval(interval);
     console.log("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     ctx.reply("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     const msg = "Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance;
-    var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
-    var chat_id = -861626613;
+    var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";
+    var chat_id = -937363962;
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
     axios.get(url).then((r) => {
@@ -338,7 +321,7 @@ const setupTelebotCommand = async () => {
 setupTelebotCommand();
 
 //khanh
-//https://cerise-tadpole-tutu.cyclic.app/createTeleBot/test/5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M/-861626613/1005280/42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812/3/120
+//https://cerise-tadpole-tutu.cyclic.app/createTeleBot/test/6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs/-937363962/1005280/42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812/3/120
 
 //Minh
-//https://cerise-tadpole-tutu.cyclic.app/createTeleBot/test2/6173439504:AAGO2UC3DI_wxvt6CGDJqV_pIEqiFLdGpOs/-1001886912905/638248/21EE754BC66501934222C68FE0105806C3E71E04403B19DAB37E015C28BC2CD9/3/120
+//https://cerise-tadpole-tutu.cyclic.app/createTeleBot/test2/6173439504:AAGO2UC3DI_wxvt6CGDJqV_pIEqiFLdGpOs/-1001886912905/1005280/42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812/3/120

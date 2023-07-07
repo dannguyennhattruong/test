@@ -1,16 +1,18 @@
 const axios = require("axios");
 let heso = 1;
+let hesoD = 1;
 let currentBalance = 0;
 let forceHeso = undefined;
 let accToken = require("./accToken.json").accToken;
 let rf = require("./accToken.json").rf;
 const fs = require("fs");
+let betIndex = 0;
 
 const getToken = async () => {
   try {
     const result = await axios({
       method: "post",
-      url: "https://fastfi.pro/api/auth/auth/token?refresh=1",
+      url: "https://fastfi2.pro/api/auth/auth/token?refresh=1",
       data: {
         client_id: "raidenbo-web",
         grant_type: "refresh_token",
@@ -66,7 +68,7 @@ const getBalance = async () => {
   try {
     const result = await axios({
       method: "get",
-      url: "https://fastfi.pro/api/wallet/binaryoption/spot-balance",
+      url: "https://fastfi2.pro/api/wallet/binaryoption/spot-balance",
       headers: {
         Authorization: "Bearer " + accToken,
       },
@@ -98,7 +100,7 @@ const main = async (num) => {
 
     const result = await axios({
       method: "post",
-      url: "https://fastfi.pro/api/wallet/binaryoption/bet",
+      url: "https://fastfi2.pro/api/wallet/binaryoption/bet",
       data: {
         betType: `${num}`,
         betAmount: Number(`${1 * heso}`),
@@ -119,8 +121,14 @@ const main = async (num) => {
   }
 };
 
-let interval;
+const getMin = () => {
+  const d = new Date();
+  let minutes = d.getMinutes();
+  return minutes;
+};
 
+let interval;
+let von = 50;
 const app = async () => {
   getBalance().then((r) => {
     if (r) {
@@ -133,24 +141,22 @@ const app = async () => {
         console.log(`BalanceAfter : ${b}`);
         if (b < currentBalance) {
           heso *= 2;
-          if (heso > 32) {
-            heso = 1;
-          }
         } else {
-          if (paid) {
-            heso = 1;
-          }
+          heso = hesoD;
         }
         if (paid && b) {
           currentBalance = b;
         }
 
-        if (currentBalance >= 76) {
-          sendMsg(`Đạt target >> dừng lệnh`)
-          clearInterval(interval);
-        }
+        const five_percent = von * 2 + von;
+        console.log(`Target ${five_percent}`);
+
+        // if (currentBalance >= 145) {
+        //   sendMsg(`Đạt target >> dừng lệnh`);
+        //   clearInterval(interval);
+        // }
         sendMsg(`💎 FastFi`).then((_) => {
-          sendMsg(`🍀 Vốn : 61$ ~ ${convertUsdtoVND(61 * 23500)}`).then(
+          sendMsg(`🍀 Vốn : ${von}$ ~ ${convertUsdtoVND(von * 23500)}`).then(
             (__) => {
               sendMsg(
                 `🔥 Số dư hiện tại ${currentBalance} ~ ${convertUsdtoVND(
@@ -158,8 +164,8 @@ const app = async () => {
                 )}`
               ).then((___) => {
                 sendMsg(
-                  `🚀 Biến động : ${currentBalance > 61 ? "+" : "-"} ${Number(
-                    (Math.abs(61 - currentBalance) / 61) * 100
+                  `🚀 Biến động : ${currentBalance > von ? "+" : "-"} ${Number(
+                    (Math.abs(von - currentBalance) / von) * 100
                   ).toFixed(2)} %`
                 ).then((____) => {
                   sendMsg(`<==============================>`);
@@ -169,7 +175,16 @@ const app = async () => {
           );
         });
 
-        main(predict());
+        if (five_percent <= currentBalance) {
+          sendMsg(`Đạt target 5% >> dừng lệnh`).then((_) => {
+            sendMsg(`Số tiền đạt được $${b}`).then((__) => {
+              clearInterval(interval);
+              process.exit(1);
+            });
+          });
+        } else {
+          main(predict());
+        }
       });
     }, 1000 * 60);
   });
@@ -236,7 +251,9 @@ const setupTelebotCommand = async () => {
     var chat_id = -937363962;
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
-    axios.get(url).then((r) => {});
+    axios.get(url).then((r) => {
+      process.exit(1)
+    });
   });
   sendMsg(`>>>> /run là bắt đầu chạy`);
   sendMsg(`>>>> /stop1 là dừng`);
@@ -250,3 +267,10 @@ app();
 main(predict());
 
 setupTelebotCommand();
+
+// sendMsg(`Đạt target 5% >> dừng lệnh`).then((_) => {
+//   sendMsg(`Số tiền đạt được $140.8615`).then((__) => {
+//     clearInterval(interval);
+//     process.exit(1);
+//   });
+// });

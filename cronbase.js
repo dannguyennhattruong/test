@@ -1,31 +1,17 @@
 const axios = require("axios");
-let heso = 1.7;
-let hesoD = 1.7;
+let heso = 1.5;
+let hesoD = 1.5;
 let currentBalance = 0;
 let forceHeso = undefined;
-let accToken = require("./accToken.json").accToken;
-let rf = require("./accToken.json").rf;
+let accToken = require("./accToken_cronbase.json").accToken;
+let rf = require("./accToken_cronbase.json").rf;
 const fs = require("fs");
 let isStop = false;
 let betCount = 0;
 let fixedBalance = 0;
 let betIndex = 0;
-let a = [
-  "UP",
-  "UP",
-  "UP",
-  "UP",
-  "DOWN",
-  "DOWN",
-  "UP",
-  "DOWN",
-  "DOWN",
-  "DOWN",
-  "DOWN",
-  "UP",
-  "UP",
-];
-const ax = [1, 1.5, 2.65, 4.475, 7.5125, 12.61875, 21.228125, 34.3421875];
+let a = ["UP", "UP", "UP", "UP", "DOWN", "DOWN", "UP", "DOWN", "DOWN", "DOWN","DOWN", "UP", "UP"];
+// let a = [`DOWN`,`DOWN`,`DOWN`,`UP`,`UP`,`DOWN`,`DOWN`,`DOWN`,]
 
 const getToken = async () => {
   try {
@@ -103,11 +89,11 @@ const getBalance = async () => {
       },
     });
     console.log("Số tiền hiện tại : " + result.data?.d?.availableBalance + "$");
-    sendMsg(
-      `🔥 Số dư hiện tại ${
-        result.data?.d?.availableBalance
-      } ~ ${convertUsdtoVND(result.data?.d?.availableBalance * 23500)}`
-    );
+    // sendMsg(
+    //   `🔥 Số dư hiện tại ${
+    //     result.data?.d?.availableBalance
+    //   } ~ ${convertUsdtoVND(result.data?.d?.availableBalance * 23500)}`
+    // );
     // if (result.data?.d?.availableBalance >= 177) {
     //   process.exit(0);
     // }
@@ -125,10 +111,8 @@ const main = async (num) => {
   console.log(`chojn ${num}`);
   console.log(`===========X============`);
   try {
-    // heso = ax[betIndex];
     console.log(` Số tiền đặt cược là ${1 * heso} `);
-    sendMsg(` Số tiền đặt cược là ${1 * heso} `);
-    sendMsg(`Đặt ${num}`);
+    sendMsg(` Số tiền đặt cược là ${1 * heso} - ${num}`);
     const result = await axios({
       method: "post",
       url: "https://cronbase2.net/api/wallet/binaryoption/bet",
@@ -159,15 +143,12 @@ const getMin = () => {
 };
 
 let interval;
-let von = 90;
+let von = 100;
 fixedBalance = von;
 let x = 2;
 let y = 0;
-let target = 5;
+let target = 100;
 let forceStop = false;
-let loseCount = 0;
-let choose = 0;
-let step = 0;
 const app = async () => {
   getBalance().then((r) => {
     if (r) {
@@ -182,12 +163,18 @@ const app = async () => {
           if (!isStop) {
             if (b < currentBalance) {
               betIndex++;
-              loseCount += 1;
-              heso *= 2.1;
+              // if (betIndex > a.length) {
+              //   betIndex = 0;
+              // }
+
+              heso *= 2.05;
             } else {
-              loseCount = 0;
-              betIndex = 0;
+              betIndex++;
+
               heso = hesoD;
+              // if (b > currentBalance) {
+              //   isStop = true;
+              // }
             }
             if (paid && b) {
               currentBalance = b;
@@ -196,53 +183,38 @@ const app = async () => {
             console.log("currentBalance", currentBalance);
             console.log("r", currentBalance - fixedBalance);
 
-            // if (currentBalance - fixedBalance <= -12) {
-            //   sendMsg(` Stop lost -12$ , số dư hiện tại : $` + currentBalance);
-            //   process.exit(1);
-            // }
-            console.log(`lose count`, loseCount);
-            if (loseCount >= 4) {
-              sendMsg(
-                ` Bị thua lần thứ ${loseCount} : $` +
-                  currentBalance +
-                  ` . /run để bắt đầu lại`
-              );
-              loseCount = 0;
-              heso = hesoD;
-              fixedBalance = currentBalance;
-              isStop = true;
-
-              forceStop = true;
-            }
-
             if (currentBalance - fixedBalance >= 5) {
               fixedBalance = currentBalance;
               isStop = true;
-              forceStop = true;
+              // forceStop = true;
               sendMsg(
-                " ✅ Hoàn thành mục tiêu đạt 3.5$, số tiền hiện tại là : $" +
+                " ✅ Hoàn thành mục tiêu đạt 5$, số tiền hiện tại là : $" +
                   currentBalance
               );
             }
 
             // stop lost
-            // if (currentBalance <= 100.95) {
-            //   process.exit(1);
-            // }
+            if (currentBalance >= 55) {
+              process.exit(1);
+            }
+
+            if (currentBalance < 15) {
+              process.exit(1);
+            }
 
             //take profit
-            // if (currentBalance >= 55) {
+            // if (currentBalance >= 71.03) {
             //   isStop = true;
             //   sendMsg(
-            //     " ✅ Hoàn thành mục tiêu đạt 55$, số tiền hiện tại là : $" +
+            //     " ✅ Hoàn thành mục tiêu đạt 71.03$, số tiền hiện tại là : $" +
             //       currentBalance
             //   ).then((_) => {
             //     process.exit(1);
             //   });
             // }
 
-            // const five_percent = von * 2 + von;
-            // console.log(`Target ${five_percent}`);
+            const five_percent = von * 2 + von;
+            console.log(`Target ${five_percent}`);
 
             // if (currentBalance >= 106) {
             //   // sendMsg(`Đạt target >> dừng lệnh`);
@@ -271,27 +243,15 @@ const app = async () => {
               });
             });
             if (!isStop) {
-              // step++;
-              // let c = choose === 0 ? "UP" : "DOWN";
-              // console.log("step: " + step);
-              // if (step > 2) {
-              //   step = 0;
-              // } else {
-              //   if (choose === 0) {
-              //     choose = 1;
-              //   } else {
-              //     choose = 0;
-              //   }
-              // }
-              if (!ax[betIndex]) {
+              if(!a[betIndex]) {
                 betIndex = 0;
               }
-              main(predict());
+              main(a[betIndex]);
             }
           } else {
             betCount++;
             if (betCount >= x) {
-              x = getRandomArbitrary(1, 5);
+              x = getRandomArbitrary(0, 2);
               console.log("Bỏ " + x + " lượt");
               betCount = 0;
               isStop = false;
@@ -299,7 +259,7 @@ const app = async () => {
           }
         }
       });
-    }, 1000 * 60);
+    }, 1000 * 120);
   });
 };
 const convertUsdtoVND = (number) =>
@@ -373,13 +333,8 @@ const setupTelebotCommand = async () => {
   sendMsg(`>>>> /run là bắt đầu chạy`);
   sendMsg(`>>>> /stop1 là dừng`);
   bot.command("run", (ctx) => {
-    hesoD = 1.7;
     forceStop = false;
     sendMsg("Starting ...");
-  });
-
-  bot.command("stop", (ctx) => {
-    process.exit();
   });
   bot.launch();
 };

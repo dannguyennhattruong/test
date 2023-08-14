@@ -1,10 +1,10 @@
 const axios = require("axios");
-let heso = 1.7;
-let hesoD = 1.7;
+let heso = 1.6;
+let hesoD = 1.6;
 let currentBalance = 0;
 let forceHeso = undefined;
-let accToken = require("./accToken.json").accToken;
-let rf = require("./accToken.json").rf;
+let accToken = require("./accToken2.json").accToken;
+let rf = require("./accToken2.json").rf;
 const fs = require("fs");
 let isStop = false;
 let betCount = 0;
@@ -24,16 +24,15 @@ let a = [
   "DOWN",
   "UP",
   "UP",
-];
-const ax = [1, 1.5, 2.65, 4.475, 7.5125, 12.61875, 21.228125, 34.3421875];
+].reverse();
 
 const getToken = async () => {
   try {
     const result = await axios({
       method: "post",
-      url: "https://cronbase2.net/api/auth/auth/token?refresh=1",
+      url: "https://skbit5.net/api/auth/auth/token?refresh=1",
       data: {
-        client_id: "exbase-web",
+        client_id: "kitanex-web",
         grant_type: "refresh_token",
         captcha: "string",
         captcha_geetest: {
@@ -97,7 +96,7 @@ const getBalance = async () => {
   try {
     const result = await axios({
       method: "get",
-      url: "https://cronbase2.net/api/wallet/binaryoption/spot-balance",
+      url: "https://skbit5.net/api/wallet/binaryoption/spot-balance",
       headers: {
         Authorization: "Bearer " + accToken,
       },
@@ -125,13 +124,12 @@ const main = async (num) => {
   console.log(`chojn ${num}`);
   console.log(`===========X============`);
   try {
-    // heso = ax[betIndex];
     console.log(` Số tiền đặt cược là ${1 * heso} `);
     sendMsg(` Số tiền đặt cược là ${1 * heso} `);
     sendMsg(`Đặt ${num}`);
     const result = await axios({
       method: "post",
-      url: "https://cronbase2.net/api/wallet/binaryoption/bet",
+      url: "https://skbit5.net/api/wallet/binaryoption/bet",
       data: {
         betType: `${num}`,
         betAmount: Number(`${1 * heso}`),
@@ -159,7 +157,7 @@ const getMin = () => {
 };
 
 let interval;
-let von = 90;
+let von = 50;
 fixedBalance = von;
 let x = 2;
 let y = 0;
@@ -183,10 +181,10 @@ const app = async () => {
             if (b < currentBalance) {
               betIndex++;
               loseCount += 1;
-              heso *= 2.1;
+              heso *= 2;
             } else {
               loseCount = 0;
-              betIndex = 0;
+              betIndex++;
               heso = hesoD;
             }
             if (paid && b) {
@@ -215,12 +213,12 @@ const app = async () => {
               forceStop = true;
             }
 
-            if (currentBalance - fixedBalance >= 5) {
+            if (currentBalance - fixedBalance >= 3) {
               fixedBalance = currentBalance;
               isStop = true;
               forceStop = true;
               sendMsg(
-                " ✅ Hoàn thành mục tiêu đạt 3.5$, số tiền hiện tại là : $" +
+                " ✅ Hoàn thành mục tiêu đạt 3$, số tiền hiện tại là : $" +
                   currentBalance
               );
             }
@@ -231,10 +229,10 @@ const app = async () => {
             // }
 
             //take profit
-            // if (currentBalance >= 55) {
+            // if (currentBalance >= 70) {
             //   isStop = true;
             //   sendMsg(
-            //     " ✅ Hoàn thành mục tiêu đạt 55$, số tiền hiện tại là : $" +
+            //     " ✅ Hoàn thành mục tiêu đạt 71.03$, số tiền hiện tại là : $" +
             //       currentBalance
             //   ).then((_) => {
             //     process.exit(1);
@@ -283,7 +281,7 @@ const app = async () => {
               //     choose = 0;
               //   }
               // }
-              if (!ax[betIndex]) {
+              if (!a[betIndex]) {
                 betIndex = 0;
               }
               main(predict());
@@ -291,7 +289,7 @@ const app = async () => {
           } else {
             betCount++;
             if (betCount >= x) {
-              x = getRandomArbitrary(1, 5);
+              x = getRandomArbitrary(1, 2);
               console.log("Bỏ " + x + " lượt");
               betCount = 0;
               isStop = false;
@@ -323,7 +321,7 @@ const convertUsdtoVND = (number) =>
 
 //     `;
 
-//   var token = "6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM";
+//   var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
 //   var chat_id = -1001932745783;
 //   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}`; //&parse_mode=html
 
@@ -340,8 +338,8 @@ const convertUsdtoVND = (number) =>
 // };
 
 const sendMsg = async (msg) => {
-  var token = "6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM";
-  var chat_id = -1001932745783;
+  var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
+  var chat_id = -861626613;
   var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
   try {
@@ -353,14 +351,14 @@ const setupTelebotCommand = async () => {
   const { Telegraf } = require("telegraf");
   const exec = require("child_process").exec;
 
-  const bot = new Telegraf("6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM");
+  const bot = new Telegraf("5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M");
   bot.hears("hi", (ctx) => ctx.reply("Hey there"));
   bot.command("stop1", (ctx) => {
     // clearInterval(interval);
     console.log("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     ctx.reply("Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance);
     const msg = "Bạn đã dừng lệnh. Số tiền hiện tại là : " + currentBalance;
-    var token = "6130196665:AAGrGQOsiu7VJ4wWjxABQlOYCLjYsTpMQJM";
+    var token = "5684927288:AAHqkWbD7dCxG6ChFZYC4p8ZP8AL5no_H9M";
     var chat_id = -1001932745783;
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
@@ -376,10 +374,6 @@ const setupTelebotCommand = async () => {
     hesoD = 1.7;
     forceStop = false;
     sendMsg("Starting ...");
-  });
-
-  bot.command("stop", (ctx) => {
-    process.exit();
   });
   bot.launch();
 };

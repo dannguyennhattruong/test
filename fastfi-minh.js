@@ -1,6 +1,6 @@
 const axios = require("axios");
-let heso = 1.1;
-let hesoD = 1.1;
+let heso = 1.05;
+let hesoD = 1.05;
 let currentBalance = 0;
 let forceHeso = undefined;
 let accToken = require("./accToken2.json").accToken;
@@ -16,9 +16,9 @@ const getToken = async () => {
   try {
     const result = await axios({
       method: "post",
-      url: "https://fastfi2.pro/api/auth/auth/token?refresh=1",
+      url: "https://mtcoin.net/api/auth/auth/token?refresh=1",
       data: {
-        client_id: "raidenbo-web",
+        client_id: "mtcoin-web",
         grant_type: "refresh_token",
         captcha: "string",
         captcha_geetest: {
@@ -64,10 +64,10 @@ function getRandomArbitrary(min, max) {
 }
 
 const predict = () => {
-  // const random = Number(generateOTP());
+  const random = Number(generateOTP());
   // // console.log(random);
-  const d = Date.now();
-  const random = Number(d.toString()[d.toString().length - 1]);
+  // const d = Date.now();
+  // const random = Number(d.toString()[d.toString().length - 1]);
   if (random > 4) {
     return "UP";
   }
@@ -78,7 +78,7 @@ const getBalance = async () => {
   try {
     const result = await axios({
       method: "get",
-      url: "https://fastfi2.pro/api/wallet/binaryoption/spot-balance",
+      url: "https://mtcoin.net/api/wallet/binaryoption/spot-balance",
       headers: {
         Authorization: "Bearer " + accToken,
       },
@@ -110,7 +110,7 @@ const main = async (num) => {
     sendMsg(` Số tiền đặt cược là ${1 * heso} `);
     const result = await axios({
       method: "post",
-      url: "https://fastfi2.pro/api/wallet/binaryoption/bet",
+      url: "https://mtcoin.net/api/wallet/binaryoption/bet",
       data: {
         betType: `${num}`,
         betAmount: Number(`${1 * heso}`),
@@ -138,26 +138,29 @@ const getMin = () => {
 };
 
 let interval;
-let von = 30;
+let von = 32.35;
 fixedBalance = von;
 let x = 2;
 let y = 0;
+let ta = 45;
+let forceStop = false;
 const app = async () => {
-    getBalance().then((r) => {
-      if (r) {
-        currentBalance = r;
-        sendMsg(`>>> Số dư hiện tại : ${r} ~ ${convertUsdtoVND(r * 23500)}`);
-      }
-      interval = setInterval(() => {
-        getBalance().then((b) => {
-          console.log(`CurrentBalance : ${currentBalance}`);
-          console.log(`BalanceAfter : ${b}`);
+  getBalance().then((r) => {
+    if (r) {
+      currentBalance = r;
+      sendMsg(`>>> Số dư hiện tại : ${r} ~ ${convertUsdtoVND(r * 23500)}`);
+    }
+    interval = setInterval(() => {
+      getBalance().then((b) => {
+        console.log(`CurrentBalance : ${currentBalance}`);
+        console.log(`BalanceAfter : ${b}`);
+        if (!forceStop) {
           if (!isStop) {
             if (b < currentBalance) {
-              heso *= 2;
+              heso *= 2.1;
             } else {
               betIndex++;
-  
+
               heso = hesoD;
             }
             if (paid && b) {
@@ -166,44 +169,47 @@ const app = async () => {
             console.log("fixedBalance", fixedBalance);
             console.log("currentBalance", currentBalance);
             console.log("r", currentBalance - fixedBalance);
-  
+
             if (currentBalance - fixedBalance >= 3) {
               fixedBalance = currentBalance;
               isStop = true;
+              sendMsg(
+                " ✅ Hoàn thành mục tiêu đạt 3$, số tiền hiện tại là : $" +
+                  currentBalance
+              );
             }
-  
-            // if (currentBalance >=85) {
-            //   process.exit(1);
-            // }
-  
+
             const five_percent = von * 2 + von;
             console.log(`Target ${five_percent}`);
-  
-            // if (currentBalance >= 106) {
-            //   // sendMsg(`Đạt target >> dừng lệnh`);
-            //   clearInterval(interval);
-            //   process.exit(1);
-            // }
-            sendMsg(`💎 FastFi`).then((_) => {
-              sendMsg(`🍀 Vốn : ${von}$ ~ ${convertUsdtoVND(von * 23500)}`).then(
-                (__) => {
-                  sendMsg(
-                    `🔥 Số dư hiện tại ${currentBalance} ~ ${convertUsdtoVND(
-                      currentBalance * 23500
-                    )}`
-                  ).then((___) => {
-                    sendMsg(
-                      `🚀 Biến động : ${
-                        currentBalance > von ? "+" : "-"
-                      } ${Number(
-                        (Math.abs(von - currentBalance) / von) * 100
-                      ).toFixed(2)} %`
-                    ).then((____) => {
-                      sendMsg(`<==============================>`);
-                    });
-                  });
-                }
+
+            if (currentBalance >= ta) {
+              ta += 10;
+              sendMsg(
+                ` ✅ Hoàn thành mục tiêu đạt ${ta}$, số tiền hiện tại là : $` +
+                  currentBalance
               );
+              forceStop = true;
+            }
+            sendMsg(`💎 FastFi`).then((_) => {
+              sendMsg(
+                `🍀 Vốn : ${von}$ ~ ${convertUsdtoVND(von * 23500)}`
+              ).then((__) => {
+                sendMsg(
+                  `🔥 Số dư hiện tại ${currentBalance} ~ ${convertUsdtoVND(
+                    currentBalance * 23500
+                  )}`
+                ).then((___) => {
+                  sendMsg(
+                    `🚀 Biến động : ${
+                      currentBalance > von ? "+" : "-"
+                    } ${Number(
+                      (Math.abs(von - currentBalance) / von) * 100
+                    ).toFixed(2)} %`
+                  ).then((____) => {
+                    sendMsg(`<==============================>`);
+                  });
+                });
+              });
             });
             if (!isStop) {
               main(predict());
@@ -211,16 +217,21 @@ const app = async () => {
           } else {
             betCount++;
             if (betCount >= x) {
-              x = getRandomArbitrary(0, 2);
+              x = getRandomArbitrary(0, 5);
               console.log("Bỏ " + x + " lượt");
               betCount = 0;
               isStop = false;
             }
           }
-        });
-      }, 1000 * 120);
-    });
-  };
+        } else {
+          sendMsg(
+            "Bạn đang buộc dừng, nêu muốn tiếp tục hãy gõ lệnh /run vào giây thứ 18 của mỗi phút ví dụ 1:30:18 😎"
+          );
+        }
+      });
+    }, 1000 * 120);
+  });
+};
 const convertUsdtoVND = (number) =>
   new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(
     number
@@ -284,13 +295,13 @@ const setupTelebotCommand = async () => {
     var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${msg}`; //&parse_mode=html
 
     axios.get(url).then((r) => {
-      process.exit(1);
+      forceStop = true;
     });
   });
   sendMsg(`>>>> /run là bắt đầu chạy`);
   sendMsg(`>>>> /stop1 là dừng`);
   bot.command("run", (ctx) => {
-    app();
+    forceStop = false;
   });
   bot.launch();
 };

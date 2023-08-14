@@ -1,6 +1,6 @@
 const axios = require("axios");
 const FormData = require("form-data");
-let heso = 2;
+let heso = 3;
 let currentBalance = 0;
 let currentOTP = 0;
 let betAmount = 0;
@@ -54,10 +54,10 @@ const getGameIssuse = async () => {
 const getBalance = async () => {
   try {
     var formData = new FormData();
-    formData.append("uid", 1005280);
+    formData.append("uid", 638248);
     formData.append(
       "sign",
-      "42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812"
+      "21EE754BC66501934222C68FE0105806C3E71E04403B19DAB37E015C28BC2CD9"
     );
     formData.append("language", "vi");
     const result = await axios.post(
@@ -87,10 +87,10 @@ const main = async (issueNum, num) => {
   console.log(` Phiên ${iss} ===========X============`);
   try {
     const formData = new FormData();
-    formData.append("uid", 1005280);
+    formData.append("uid", 638248);
     formData.append(
       "sign",
-      "42BBBB760E868AFACF71C158B55438B8529C196E23BAA768CF0A4AB5A16BB812"
+      "21EE754BC66501934222C68FE0105806C3E71E04403B19DAB37E015C28BC2CD9"
     );
     formData.append("amount", `1000`);
     formData.append("betcount", `${heso}`);
@@ -131,6 +131,11 @@ const main = async (issueNum, num) => {
 };
 main(issuenumberEntry, predict());
 
+let forceStop = false;
+let x = 2;
+let von = 1000000;
+let fixedBalance = von;
+let betCount =0;
 getBalance().then((r) => {
   currentBalance = r;
   interval = setInterval(() => {
@@ -143,54 +148,78 @@ getBalance().then((r) => {
           currentBalance / 23500
         ).toFixed(2)}$`
       );
-      console.log(`BalanceAfter : ${b} ~ ${Number(b / 23500).toFixed(2)}$`);
-      let txt = "win";
-      if (b < currentBalance) {
-        txt = "lose";
-        heso *= 2;
-        sendMsg(`LOSE`);
-      } else {
-        heso = 2;
-        sendMsg(`WIN`);
-        if (changeType === 0) {
-          changeType = 1;
-          sendMsg(`Chọn Wingo 🙂`);
+      if (!forceStop) {
+        console.log(`BalanceAfter : ${b} ~ ${Number(b / 23500).toFixed(2)}$`);
+        let txt = "win";
+        if (b < currentBalance) {
+          txt = "lose";
+          heso *= 2;
+          heso = heso + 1;
+          sendMsg(`LOSE`);
         } else {
-          changeType = 0;
-          sendMsg(`Chọn TRX 😎`);
+          heso = 3;
+          sendMsg(`WIN`);
+          // if (changeType === 0) {
+          //   changeType = 1;
+          //   sendMsg(`Chọn Wingo 🙂`);
+          // } else {
+          //   changeType = 0;
+          //   sendMsg(`Chọn TRX 😎`);
+          // }
         }
-      }
-      sendMsg(`💎 92Lot`).then((_) => {
-        sendMsg(`🍀 Vốn : ${convertUsdtoVND(500000)}`).then((__) => {
-          sendMsg(`🔥 Số dư hiện tại  ${convertUsdtoVND(currentBalance)}`).then(
-            (___) => {
+        sendMsg(`💎 92Lot`).then((_) => {
+          sendMsg(`🍀 Vốn : ${convertUsdtoVND(von)}`).then((__) => {
+            sendMsg(
+              `🔥 Số dư hiện tại  ${convertUsdtoVND(currentBalance)}`
+            ).then((___) => {
               sendMsg(
-                `🚀 Biến động : ${
-                  currentBalance > 500000 ? "+" : "-"
-                } ${Number(
-                  (Math.abs(500000 - currentBalance) / 500000) * 100
+                `🚀 Biến động : ${currentBalance > von ? "+" : "-"} ${Number(
+                  (Math.abs(von - currentBalance) / von) * 100
                 ).toFixed(2)} %`
               ).then((____) => {
                 sendMsg(`<==============================>`);
               });
-            }
-          );
+            });
+          });
         });
-      });
-      console.log(`* ${b}`);
-      if (b) {
-        currentBalance = b;
+        console.log(`* ${b}`);
 
-        // if (currentBalance >= 1500000) {
-        //   process.exit(1);
-        // }
-        // sendToTelegram2(currentBalance, issuenumberEntry, txt);
-        const OTP = predict();
-        main(issuenumberEntry, OTP);
+        if (currentBalance - fixedBalance >= 10000) {
+          fixedBalance = currentBalance;
+          forceStop = true;
+          sendMsg(
+            " ✅ Hoàn thành mục tiêu đạt 10000, số tiền hiện tại là : $" +
+              currentBalance
+          );
+        }
+        if (b) {
+          currentBalance = b;
+
+          // if (currentBalance >= 700000) {
+          //   process.exit(1);
+          // }
+          // sendToTelegram2(currentBalance, issuenumberEntry, txt);
+          const OTP = predict();
+          main(issuenumberEntry, OTP);
+        }
+      } else {
+
+        betCount++;
+        if (betCount >= x) {
+          x = getRandomArbitrary(1, 5);
+          console.log("Bỏ " + x + " lượt");
+          betCount = 0;
+          forceStop = false;
+        }
       }
     });
   }, 1000 * 60);
 });
+
+function getRandomArbitrary(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
 
 const sendMsg = async (msg) => {
   var token = "6117786373:AAEOHcV7CGsdh8pJG08Genbth-5E53X6mGs";

@@ -1,7 +1,5 @@
 {
   "url": "https://battlecity.io",
   "name": "BattlecityIO",
-  "iconUrl": "https://battlecity.io/assets/images/wol.png",
-  "termsOfUseUrl": "<terms-of-use-url>",
-  "privacyPolicyUrl": "<privacy-policy-url>"
+  "iconUrl": "https://battlecity.io/assets/images/wol.png"
 }
